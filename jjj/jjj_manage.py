@@ -45,6 +45,13 @@ user_base = dict(df.groupby("이름").apply(lambda x : dict(zip(x["장소"], x["
 item_base = dict(df.groupby("장소").apply(lambda x : dict(zip(x["이름"], x["별점"]))))
 
 
+# 고객 존재 여부 확인
+def checking_name(inserted_name):
+    if df["이름"].str.contains(inserted_name).any():
+        return 1
+    else:
+        return 0
+
 # calc_user_sim_positive
 def calc_user_sim_positive(user_i, user_j) :
     if user_i != user_j :

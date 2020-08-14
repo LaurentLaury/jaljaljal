@@ -11,6 +11,21 @@ import jjj_manage as jm
 
 app = Flask(__name__)
 
+# 로그인 기능
+@app.route("/home")
+def home():
+    return render_template("jjj/home.html")
+
+
+@app.route("/post", methods=['POST'])
+def post():
+    value = request.form['input']
+    result = jm.checking_name(value)
+    if (result == 1):
+        return render_template("jjj/login_success.html", name=value)
+    else:
+        return render_template("jjj/login_fail.html", name=value)
+
 
 # @app.route("/user_base/<name>")
 # def user_base(name):
