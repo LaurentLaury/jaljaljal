@@ -10,7 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="011b8534-7c28-4e49-a6ec-426abe9f5bd9" name="Default Changelist" comment="jjj_project" />
+    <list default="true" id="011b8534-7c28-4e49-a6ec-426abe9f5bd9" name="Default Changelist" comment="jjj_project">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -145,6 +147,7 @@
         <entry key="1" value="TOOL_WINDOW" />
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
