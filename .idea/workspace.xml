@@ -12,7 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="011b8534-7c28-4e49-a6ec-426abe9f5bd9" name="Default Changelist" comment="두열이가 날린 static 복원...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/get.py" beforeDir="false" afterPath="$PROJECT_DIR$/get.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj_final.py" beforeDir="false" afterPath="$PROJECT_DIR$/jjj_final.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/jjj/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/jjj/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,10 +226,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="두열이가 날린 static 복원..." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="326" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597387157932">
+    <state x="326" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597389121310">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="326" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597387157932" />
+    <state x="326" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597389121310" />
     <state x="580" y="105" key="#jjj" timestamp="1597373834187">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -241,22 +242,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597383747955" />
-    <state width="1169" height="268" key="GridCell.Tab.0.bottom" timestamp="1597387158007">
+    <state width="1898" height="277" key="GridCell.Tab.0.bottom" timestamp="1597389150186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1169" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597387158007" />
-    <state width="1169" height="268" key="GridCell.Tab.0.center" timestamp="1597387158007">
+    <state width="1898" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597389150186" />
+    <state width="1898" height="277" key="GridCell.Tab.0.center" timestamp="1597389150186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1169" height="268" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597387158007" />
-    <state width="1169" height="268" key="GridCell.Tab.0.left" timestamp="1597387158007">
+    <state width="1898" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597389150186" />
+    <state width="1898" height="277" key="GridCell.Tab.0.left" timestamp="1597389150186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1169" height="268" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597387158007" />
-    <state width="1169" height="268" key="GridCell.Tab.0.right" timestamp="1597387158007">
+    <state width="1898" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597389150186" />
+    <state width="1898" height="277" key="GridCell.Tab.0.right" timestamp="1597389150186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1169" height="268" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597387158007" />
+    <state width="1898" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597389150186" />
     <state x="461" y="151" key="SettingsEditor" timestamp="1597372131213">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
