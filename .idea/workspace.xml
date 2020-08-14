@@ -10,54 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="011b8534-7c28-4e49-a6ec-426abe9f5bd9" name="Default Changelist" comment="추천 알고리즘 모듈화 파일 추가">
-      <change beforePath="$PROJECT_DIR$/.idea/jaljaljal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jaljaljal.iml" afterDir="false" />
+    <list default="true" id="011b8534-7c28-4e49-a6ec-426abe9f5bd9" name="Default Changelist" comment="파일 경로 다듬기">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/.idea/jjj.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/TL_SCCO_CTPRVN.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/best_predictions.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/folium_addr.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/hybrid.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/jjj.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/jjj_manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/rec.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/static/all.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/static/default.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/static/font/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/static/font/fontawesome-social-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/static/font/fontawesome-social-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/static/font/fontawesome-social-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/static/font/fontawesome-social-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/static/font/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/static/font/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/static/font/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/static/font/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/static/fonts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/static/images/banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/static/images/busan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/static/images/daegu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/static/images/daejeon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/static/images/folium.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/static/images/gwangju.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/static/images/jeju.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/static/images/jeonju.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/static/images/seoul.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/templates/jjj/best_pred.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/templates/jjj/folium.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/templates/jjj/graph1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/templates/jjj/graph2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/templates/jjj/hybrid.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/templates/jjj/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/templates/jjj/item_base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/templates/jjj/jjj1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/templates/jjj/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/templates/jjj/user_base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,15 +36,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test_0813" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\COM\PycharmProjects\jaljaljal" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\COM\PycharmProjects\jaljaljal\static" />
+      <recent name="C:\Users\COM\PycharmProjects\jaljaljal\jjj" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.jjj_final">
+  <component name="RunManager" selected="Python.jjj">
     <configuration name="jjj" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="jaljaljal" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,33 +56,12 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\COM\AppData\Local\Programs\Python\Python38\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/jjj" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jjj/jjj.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="jjj_final" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="jaljaljal" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/jjj" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jjj_final.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jjj/jjj.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,7 +93,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.jjj_final" />
         <item itemvalue="Python.jjj" />
         <item itemvalue="Python.test" />
       </list>
@@ -194,7 +130,35 @@
       <option name="project" value="LOCAL" />
       <updated>1597372419668</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="jjj.py , jjj_manage.py에 로그인 함수 추가">
+      <created>1597373062751</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597373062751</updated>
+    </task>
+    <task id="LOCAL-00005" summary="html 위치 조정">
+      <created>1597373584550</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1597373584550</updated>
+    </task>
+    <task id="LOCAL-00006" summary="파일 경로 다듬기">
+      <created>1597373741922</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1597373741922</updated>
+    </task>
+    <task id="LOCAL-00007" summary="파일 경로 다듬기">
+      <created>1597384616273</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1597384616273</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -242,52 +206,63 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="jjj_project" />
-    <option name="LAST_COMMIT_MESSAGE" value="jjj_project" />
+    <MESSAGE value="jjj.py , jjj_manage.py에 로그인 함수 추가" />
+    <MESSAGE value="html 위치 조정" />
+    <MESSAGE value="파일 경로 다듬기" />
+    <option name="LAST_COMMIT_MESSAGE" value="파일 경로 다듬기" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="207" y="129" key="#jjj" timestamp="1597374386457">
+    <state x="580" y="105" key="#jjj" timestamp="1597373834187">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="207" y="129" key="#jjj/0.0.1920.1040@0.0.1920.1040" timestamp="1597374386457" />
-    <state x="666" y="110" key="#test" timestamp="1597372153520">
+    <state x="580" y="105" key="#jjj/0.0.1920.1040@0.0.1920.1040" timestamp="1597373834187" />
+    <state x="666" y="110" key="#test" timestamp="1597373810531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="666" y="110" key="#test/0.0.1920.1040@0.0.1920.1040" timestamp="1597372153520" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1597374525940">
+    <state x="666" y="110" key="#test/0.0.1920.1040@0.0.1920.1040" timestamp="1597373810531" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1597383747955">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597374525940" />
-    <state width="1668" height="277" key="GridCell.Tab.0.bottom" timestamp="1597378101979">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597383747955" />
+    <state width="1077" height="268" key="GridCell.Tab.0.bottom" timestamp="1597383702899">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1668" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597378101979" />
-    <state width="1668" height="277" key="GridCell.Tab.0.center" timestamp="1597378101979">
+    <state width="1077" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597383702899" />
+    <state width="1077" height="268" key="GridCell.Tab.0.center" timestamp="1597383702899">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1668" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597378101979" />
-    <state width="1668" height="277" key="GridCell.Tab.0.left" timestamp="1597378101979">
+    <state width="1077" height="268" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597383702899" />
+    <state width="1077" height="268" key="GridCell.Tab.0.left" timestamp="1597383702899">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1668" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597378101979" />
-    <state width="1668" height="277" key="GridCell.Tab.0.right" timestamp="1597378101979">
+    <state width="1077" height="268" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597383702899" />
+    <state width="1077" height="268" key="GridCell.Tab.0.right" timestamp="1597383702899">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1668" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597378101979" />
-    <state x="461" y="151" key="SettingsEditor" timestamp="1597378097942">
+    <state width="1077" height="268" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597383702899" />
+    <state x="461" y="151" key="SettingsEditor" timestamp="1597372131213">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597378097942" />
-    <state x="1032" y="252" key="Vcs.Push.Dialog.v2" timestamp="1597372427993">
+    <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597372131213" />
+    <state x="1032" y="252" key="Vcs.Push.Dialog.v2" timestamp="1597373754456">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597372427993" />
-    <state x="678" y="306" key="git4idea.merge.GitPullDialog" timestamp="1597372436101">
+    <state x="1032" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597373754456" />
+    <state x="295" y="496" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597384422282">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="678" y="306" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597372436101" />
+    <state x="295" y="496" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597384422282" />
+    <state x="678" y="306" key="git4idea.merge.GitPullDialog" timestamp="1597385626949">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="678" y="306" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597385626949" />
     <state x="730" y="392" width="611" height="285" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1597372126009">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="730" y="392" width="611" height="285" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597372126009" />
+    <state x="153" y="296" key="search.everywhere.popup" timestamp="1597384437578">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="153" y="296" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1597384437578" />
   </component>
 </project>
