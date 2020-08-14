@@ -6,31 +6,12 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="011b8534-7c28-4e49-a6ec-426abe9f5bd9" name="Default Changelist" comment="jjj.py , jjj_manage.py에 로그인 함수 추가">
+    <list default="true" id="011b8534-7c28-4e49-a6ec-426abe9f5bd9" name="Default Changelist" comment="추천 알고리즘 모듈화 파일 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/templates/jjj/best_pred.html" beforeDir="false" afterPath="$PROJECT_DIR$/jjj/test0814/templates/jjj/best_pred.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/templates/jjj/folium.html" beforeDir="false" afterPath="$PROJECT_DIR$/jjj/test0814/templates/jjj/folium.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/templates/jjj/graph1.html" beforeDir="false" afterPath="$PROJECT_DIR$/jjj/test0814/templates/jjj/graph1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/templates/jjj/graph2.html" beforeDir="false" afterPath="$PROJECT_DIR$/jjj/test0814/templates/jjj/graph2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/templates/jjj/hybrid.html" beforeDir="false" afterPath="$PROJECT_DIR$/jjj/test0814/templates/jjj/hybrid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/templates/jjj/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/jjj/test0814/templates/jjj/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/templates/jjj/item_base.html" beforeDir="false" afterPath="$PROJECT_DIR$/jjj/test0814/templates/jjj/item_base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/templates/jjj/jjj1.html" beforeDir="false" afterPath="$PROJECT_DIR$/jjj/test0814/templates/jjj/jjj1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/templates/jjj/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/jjj/test0814/templates/jjj/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj/templates/jjj/user_base.html" beforeDir="false" afterPath="$PROJECT_DIR$/jjj/test0814/templates/jjj/user_base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,15 +36,36 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test_0813" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\COM\PycharmProjects\jaljaljal" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.jjj">
+    <configuration name="jjj" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="jaljaljal" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\COM\AppData\Local\Programs\Python\Python38\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/jjj" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jjj/jjj.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="jaljaljal" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -87,6 +89,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.jjj" />
         <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
@@ -123,14 +126,7 @@
       <option name="project" value="LOCAL" />
       <updated>1597372419668</updated>
     </task>
-    <task id="LOCAL-00004" summary="jjj.py , jjj_manage.py에 로그인 함수 추가">
-      <created>1597373062751</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1597373062751</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,22 +174,41 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="jjj_project" />
-    <MESSAGE value="jjj.py , jjj_manage.py에 로그인 함수 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="jjj.py , jjj_manage.py에 로그인 함수 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="jjj_project" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="207" y="129" key="#jjj" timestamp="1597374386457">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="207" y="129" key="#jjj/0.0.1920.1040@0.0.1920.1040" timestamp="1597374386457" />
     <state x="666" y="110" key="#test" timestamp="1597372153520">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="110" key="#test/0.0.1920.1040@0.0.1920.1040" timestamp="1597372153520" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1597370512896">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1597374525940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597370512896" />
-    <state x="461" y="151" key="SettingsEditor" timestamp="1597372131213">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597374525940" />
+    <state width="1668" height="277" key="GridCell.Tab.0.bottom" timestamp="1597378101979">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597372131213" />
+    <state width="1668" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597378101979" />
+    <state width="1668" height="277" key="GridCell.Tab.0.center" timestamp="1597378101979">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1668" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597378101979" />
+    <state width="1668" height="277" key="GridCell.Tab.0.left" timestamp="1597378101979">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1668" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597378101979" />
+    <state width="1668" height="277" key="GridCell.Tab.0.right" timestamp="1597378101979">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1668" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597378101979" />
+    <state x="461" y="151" key="SettingsEditor" timestamp="1597378097942">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597378097942" />
     <state x="1032" y="252" key="Vcs.Push.Dialog.v2" timestamp="1597372427993">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
