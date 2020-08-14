@@ -14,7 +14,7 @@ import jjj_login as jl
 app = Flask(__name__)
 
 # 로그인 기능
-@app.route("/home")
+@app.route("/")
 def home():
     return render_template("jjj/home.html")
 
