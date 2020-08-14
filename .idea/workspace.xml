@@ -11,7 +11,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="011b8534-7c28-4e49-a6ec-426abe9f5bd9" name="Default Changelist" comment="추천 알고리즘 모듈화 파일 추가">
+      <change beforePath="$PROJECT_DIR$/.idea/jaljaljal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jaljaljal.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/.idea/jjj.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/TL_SCCO_CTPRVN.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/best_predictions.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/folium_addr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/hybrid.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/jjj.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/jjj_manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/rec.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/static/all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/static/default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/static/font/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/static/font/fontawesome-social-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/static/font/fontawesome-social-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/static/font/fontawesome-social-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/static/font/fontawesome-social-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/static/font/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/static/font/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/static/font/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/static/font/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/static/fonts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/static/images/banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/static/images/busan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/static/images/daegu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/static/images/daejeon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/static/images/folium.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/static/images/gwangju.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/static/images/jeju.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/static/images/jeonju.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/static/images/seoul.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/templates/jjj/best_pred.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/templates/jjj/folium.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/templates/jjj/graph1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/templates/jjj/graph2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/templates/jjj/hybrid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/templates/jjj/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/templates/jjj/item_base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/templates/jjj/jjj1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/templates/jjj/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/templates/jjj/user_base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +90,7 @@
       <recent name="C:\Users\COM\PycharmProjects\jaljaljal" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.jjj">
+  <component name="RunManager" selected="Python.jjj_final">
     <configuration name="jjj" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="jaljaljal" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -58,6 +104,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jjj/jjj.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="jjj_final" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="jaljaljal" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jjj_final.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -89,6 +156,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.jjj_final" />
         <item itemvalue="Python.jjj" />
         <item itemvalue="Python.test" />
       </list>
