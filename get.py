@@ -9,6 +9,7 @@ import pandas as pd
 import cx_Oracle
 import os
 
+
 def get_data() :
     global review
     os.putenv('NLS_LANG', 'KOREAN_KOREA.KO16MSWIN949')

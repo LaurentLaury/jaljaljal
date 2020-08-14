@@ -29,6 +29,7 @@ def post():
         return render_template("jjj/login_fail.html", name=value)
 
 
+
 @app.route("/hybrid/<name>")
 def hybrid(name):
     result = mm.main(name)
