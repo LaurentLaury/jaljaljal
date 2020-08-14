@@ -6,12 +6,31 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="011b8534-7c28-4e49-a6ec-426abe9f5bd9" name="Default Changelist" comment="jjj_project">
+    <list default="true" id="011b8534-7c28-4e49-a6ec-426abe9f5bd9" name="Default Changelist" comment="jjj.py , jjj_manage.py에 로그인 함수 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/templates/jjj/best_pred.html" beforeDir="false" afterPath="$PROJECT_DIR$/jjj/test0814/templates/jjj/best_pred.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/templates/jjj/folium.html" beforeDir="false" afterPath="$PROJECT_DIR$/jjj/test0814/templates/jjj/folium.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/templates/jjj/graph1.html" beforeDir="false" afterPath="$PROJECT_DIR$/jjj/test0814/templates/jjj/graph1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/templates/jjj/graph2.html" beforeDir="false" afterPath="$PROJECT_DIR$/jjj/test0814/templates/jjj/graph2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/templates/jjj/hybrid.html" beforeDir="false" afterPath="$PROJECT_DIR$/jjj/test0814/templates/jjj/hybrid.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/templates/jjj/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/jjj/test0814/templates/jjj/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/templates/jjj/item_base.html" beforeDir="false" afterPath="$PROJECT_DIR$/jjj/test0814/templates/jjj/item_base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/templates/jjj/jjj1.html" beforeDir="false" afterPath="$PROJECT_DIR$/jjj/test0814/templates/jjj/jjj1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/templates/jjj/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/jjj/test0814/templates/jjj/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj/templates/jjj/user_base.html" beforeDir="false" afterPath="$PROJECT_DIR$/jjj/test0814/templates/jjj/user_base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597372419668</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="jjj.py , jjj_manage.py에 로그인 함수 추가">
+      <created>1597373062751</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597373062751</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,7 +178,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="jjj_project" />
-    <option name="LAST_COMMIT_MESSAGE" value="jjj_project" />
+    <MESSAGE value="jjj.py , jjj_manage.py에 로그인 함수 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="jjj.py , jjj_manage.py에 로그인 함수 추가" />
   </component>
   <component name="WindowStateProjectService">
     <state x="666" y="110" key="#test" timestamp="1597372153520">
