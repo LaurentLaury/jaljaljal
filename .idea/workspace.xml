@@ -10,8 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="011b8534-7c28-4e49-a6ec-426abe9f5bd9" name="Default Changelist" comment="파일 경로 다듬기">
+    <list default="true" id="011b8534-7c28-4e49-a6ec-426abe9f5bd9" name="Default Changelist" comment="두열이가 날린 static 복원...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get.py" beforeDir="false" afterPath="$PROJECT_DIR$/get.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +49,8 @@
       <recent name="C:\Users\COM\PycharmProjects\jaljaljal\jjj" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.jjj">
-    <configuration name="jjj" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.jjj_final">
+    <configuration name="jjj_final" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="jaljaljal" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -57,11 +58,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/jjj" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jjj/jjj.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jjj_final.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -91,9 +92,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.jjj_final" />
+      <item itemvalue="Python.test" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.jjj" />
+        <item itemvalue="Python.jjj_final" />
         <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
@@ -158,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597384616273</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="두열이가 날린 static 복원...">
+      <created>1597386270753</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1597386270753</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,9 +221,14 @@
     <MESSAGE value="jjj.py , jjj_manage.py에 로그인 함수 추가" />
     <MESSAGE value="html 위치 조정" />
     <MESSAGE value="파일 경로 다듬기" />
-    <option name="LAST_COMMIT_MESSAGE" value="파일 경로 다듬기" />
+    <MESSAGE value="두열이가 날린 static 복원..." />
+    <option name="LAST_COMMIT_MESSAGE" value="두열이가 날린 static 복원..." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="326" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597387157932">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="326" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597387157932" />
     <state x="580" y="105" key="#jjj" timestamp="1597373834187">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -224,34 +241,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597383747955" />
-    <state width="1077" height="268" key="GridCell.Tab.0.bottom" timestamp="1597383702899">
+    <state width="1169" height="268" key="GridCell.Tab.0.bottom" timestamp="1597387158007">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1077" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597383702899" />
-    <state width="1077" height="268" key="GridCell.Tab.0.center" timestamp="1597383702899">
+    <state width="1169" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597387158007" />
+    <state width="1169" height="268" key="GridCell.Tab.0.center" timestamp="1597387158007">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1077" height="268" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597383702899" />
-    <state width="1077" height="268" key="GridCell.Tab.0.left" timestamp="1597383702899">
+    <state width="1169" height="268" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597387158007" />
+    <state width="1169" height="268" key="GridCell.Tab.0.left" timestamp="1597387158007">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1077" height="268" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597383702899" />
-    <state width="1077" height="268" key="GridCell.Tab.0.right" timestamp="1597383702899">
+    <state width="1169" height="268" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597387158007" />
+    <state width="1169" height="268" key="GridCell.Tab.0.right" timestamp="1597387158007">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1077" height="268" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597383702899" />
+    <state width="1169" height="268" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597387158007" />
     <state x="461" y="151" key="SettingsEditor" timestamp="1597372131213">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597372131213" />
-    <state x="1032" y="252" key="Vcs.Push.Dialog.v2" timestamp="1597373754456">
+    <state x="1032" y="252" key="Vcs.Push.Dialog.v2" timestamp="1597386313013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597373754456" />
-    <state x="295" y="496" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597384422282">
+    <state x="1032" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597386313013" />
+    <state x="295" y="496" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597386863731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="295" y="496" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597384422282" />
+    <state x="295" y="496" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597386863731" />
     <state x="678" y="306" key="git4idea.merge.GitPullDialog" timestamp="1597385626949">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

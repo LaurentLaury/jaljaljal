@@ -31,7 +31,7 @@ def get_data() :
     review.columns = ['이름', '장소', '분류', '별점', '주소', '대분류', '주소1', '주소2', '방문횟수', '위도', '경도', '년도', '월', '계절']    
 
 
-def get_df(add=None, ctg=5) :
+def get_df(add=None, ctg=5):
     if add == None :
         df = pd.DataFrame()
         df["이름"] = review["이름"]
