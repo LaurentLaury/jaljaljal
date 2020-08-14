@@ -8,7 +8,7 @@ import recommend_hybrid as rh
 import recommend_svd as rs
 import get
 import main as mm
-import jjj_manage as jm
+import jjj_login as jl
 
 
 app = Flask(__name__)
@@ -22,7 +22,7 @@ def home():
 @app.route("/post", methods=['POST'])
 def post():
     value = request.form['input']
-    result = jm.checking_name(value)
+    result = jl.checking_name(value)
     if (result == 1):
         return render_template("jjj/login_success.html", name=value)
     else:
