@@ -26,6 +26,20 @@
 <h1>{{name}}님은 아직 어디가지의 회원이 아닙니다.</h1>
 <h2> 비회원을 위한 일반 추천을 해드릴게요</h2>
 
-{{data}}
+<table border = "1">
+    <th>상호</th>
+    <th>카테고리</th>
+    <th>주소</th>
+    <th>별점</th>
+    {% for loc in data %}
+    <tr>
+        <td>{{loc.name}}</td>
+        <td>{{loc.category}}</td>
+        <td>{{loc.addr}}</td>
+        <td>{{loc.est}}</td>
+    </tr>
+    {% endfor %}
+</table>
+
 </body>
 </html>
