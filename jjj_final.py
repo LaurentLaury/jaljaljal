@@ -1,16 +1,8 @@
-from flask import Flask, render_template, request, redirect
-import pandas as pd
-import numpy as np
-import json
-import matplotlib.pyplot as plt
-import folium
-import recommend_hybrid as rh
-import recommend_svd as rs
-import get
-import main as mm
+from flask import Flask, render_template, request
+
 import jjj_login as jl
 import jjj_manage as jm
-
+import main as mm
 
 app = Flask(__name__)
 
@@ -42,7 +34,7 @@ def hybrid(name):
     result = mm.main(name)
     return render_template("jjj/hybrid.html", data=result)
 
-
+# 혜민 test
 
 
 if __name__=='__main__':
