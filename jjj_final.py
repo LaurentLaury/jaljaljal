@@ -30,6 +30,9 @@ def hybrid(name):
     return render_template("jjj/hybrid.html", data=result)
 
 # 혜민 test
+@app.route("/chart")
+def chart():
+    return render_template("jjj/chart_analysis.html")
 
 
 if __name__=='__main__':

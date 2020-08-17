@@ -11,9 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="011b8534-7c28-4e49-a6ec-426abe9f5bd9" name="Default Changelist" comment="login_success.html의 불필요한 코드 제거">
+      <change afterPath="$PROJECT_DIR$/templates/jjj/chart_analysis.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jjj_final.py" beforeDir="false" afterPath="$PROJECT_DIR$/jjj_final.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/jjj/chart_analysis.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/chart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/place_chart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/jjj/login_success.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/jjj/login_success.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,38 +287,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597631289943" />
-    <state width="815" height="352" key="GridCell.Tab.0.bottom" timestamp="1597636737762">
+    <state width="658" height="352" key="GridCell.Tab.0.bottom" timestamp="1597645861537">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="815" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597636737762" />
-    <state width="815" height="352" key="GridCell.Tab.0.center" timestamp="1597636737762">
+    <state width="658" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597645861537" />
+    <state width="658" height="352" key="GridCell.Tab.0.center" timestamp="1597645861537">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="815" height="352" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597636737762" />
-    <state width="815" height="352" key="GridCell.Tab.0.left" timestamp="1597636737762">
+    <state width="658" height="352" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597645861537" />
+    <state width="658" height="352" key="GridCell.Tab.0.left" timestamp="1597645861537">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="815" height="352" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597636737762" />
-    <state width="815" height="352" key="GridCell.Tab.0.right" timestamp="1597636737762">
+    <state width="658" height="352" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597645861537" />
+    <state width="658" height="352" key="GridCell.Tab.0.right" timestamp="1597645861537">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="815" height="352" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597636737762" />
+    <state width="658" height="352" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597645861537" />
     <state x="188" y="123" key="SettingsEditor" timestamp="1597635954649">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="188" y="123" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597635954649" />
-    <state x="1032" y="252" key="Vcs.Push.Dialog.v2" timestamp="1597636104942">
+    <state x="1032" y="252" key="Vcs.Push.Dialog.v2" timestamp="1597647617476">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597636104942" />
+    <state x="1032" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597647617476" />
     <state x="295" y="496" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597631893693">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="295" y="496" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597631893693" />
-    <state x="678" y="306" key="git4idea.merge.GitPullDialog" timestamp="1597635237857">
+    <state x="678" y="306" key="git4idea.merge.GitPullDialog" timestamp="1597647632173">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="678" y="306" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597635237857" />
+    <state x="678" y="306" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597647632173" />
     <state x="730" y="392" width="611" height="285" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1597372126009">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
