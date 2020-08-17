@@ -10,12 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="011b8534-7c28-4e49-a6ec-426abe9f5bd9" name="Default Changelist" comment="동기화 테스트2">
+    <list default="true" id="011b8534-7c28-4e49-a6ec-426abe9f5bd9" name="Default Changelist" comment="login_success.html의 불필요한 코드 제거">
+      <change afterPath="$PROJECT_DIR$/templates/jjj/chart_analysis.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/get.py" beforeDir="false" afterPath="$PROJECT_DIR$/get.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jjj_final.py" beforeDir="false" afterPath="$PROJECT_DIR$/jjj_final.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/jjj_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/jjj/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/jjj/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/chart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/place_chart.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/jjj/login_success.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/jjj/login_success.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +28,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -39,10 +41,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test_0813" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../js_test" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -75,6 +78,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="jjj_manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="jaljaljal" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jjj_manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="jaljaljal" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -99,10 +123,12 @@
     <list>
       <item itemvalue="Python.jjj_final" />
       <item itemvalue="Python.test" />
+      <item itemvalue="Python.jjj_manage" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.jjj_final" />
+        <item itemvalue="Python.jjj_manage" />
         <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
@@ -181,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597389661260</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="login_success.html의 불필요한 코드 제거">
+      <created>1597636091566</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1597636091566</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -234,7 +267,8 @@
     <MESSAGE value="파일 경로 다듬기" />
     <MESSAGE value="두열이가 날린 static 복원..." />
     <MESSAGE value="동기화 테스트2" />
-    <option name="LAST_COMMIT_MESSAGE" value="동기화 테스트2" />
+    <MESSAGE value="login_success.html의 불필요한 코드 제거" />
+    <option name="LAST_COMMIT_MESSAGE" value="login_success.html의 불필요한 코드 제거" />
   </component>
   <component name="WindowStateProjectService">
     <state x="326" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597389121310">
@@ -249,42 +283,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="110" key="#test/0.0.1920.1040@0.0.1920.1040" timestamp="1597373810531" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1597393271994">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1597631289943">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597393271994" />
-    <state width="1898" height="277" key="GridCell.Tab.0.bottom" timestamp="1597396536068">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597631289943" />
+    <state width="658" height="352" key="GridCell.Tab.0.bottom" timestamp="1597645861537">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597396536068" />
-    <state width="1898" height="277" key="GridCell.Tab.0.center" timestamp="1597396536068">
+    <state width="658" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597645861537" />
+    <state width="658" height="352" key="GridCell.Tab.0.center" timestamp="1597645861537">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597396536068" />
-    <state width="1898" height="277" key="GridCell.Tab.0.left" timestamp="1597396536068">
+    <state width="658" height="352" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597645861537" />
+    <state width="658" height="352" key="GridCell.Tab.0.left" timestamp="1597645861537">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597396536068" />
-    <state width="1898" height="277" key="GridCell.Tab.0.right" timestamp="1597396536068">
+    <state width="658" height="352" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597645861537" />
+    <state width="658" height="352" key="GridCell.Tab.0.right" timestamp="1597645861537">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597396536068" />
-    <state x="461" y="151" key="SettingsEditor" timestamp="1597372131213">
+    <state width="658" height="352" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597645861537" />
+    <state x="188" y="123" key="SettingsEditor" timestamp="1597635954649">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597372131213" />
-    <state x="1032" y="252" key="Vcs.Push.Dialog.v2" timestamp="1597389709431">
+    <state x="188" y="123" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597635954649" />
+    <state x="1032" y="252" key="Vcs.Push.Dialog.v2" timestamp="1597647617476">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597389709431" />
-    <state x="295" y="496" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597389694533">
+    <state x="1032" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597647617476" />
+    <state x="295" y="496" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597631893693">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="295" y="496" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597389694533" />
-    <state x="678" y="306" key="git4idea.merge.GitPullDialog" timestamp="1597385626949">
+    <state x="295" y="496" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597631893693" />
+    <state x="678" y="306" key="git4idea.merge.GitPullDialog" timestamp="1597647632173">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="678" y="306" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597385626949" />
+    <state x="678" y="306" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597647632173" />
     <state x="730" y="392" width="611" height="285" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1597372126009">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

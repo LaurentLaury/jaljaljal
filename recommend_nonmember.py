@@ -1,4 +1,4 @@
-import pandas as pd
+# 한번만 돌아가는 파일 (수정 x)
 # -*- coding: utf-8 -*-
 import cx_Oracle
 #패키지 추가
