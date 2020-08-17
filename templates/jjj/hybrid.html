@@ -23,8 +23,23 @@
 </head >
 <body>
 
-{% for loc in data["장소"] %}
-    {{loc}}
-{% endfor %}
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th scope="col">상호</th>
+            <th scope="col">주소</th>
+            <th scope="col">별점</th>
+        </tr>
+    </thead>
+    {% for loc in data %}
+    <tbody>
+        <tr>
+            <td>{{loc.place}}</td>
+            <td>{{loc.address}}</td>
+            <td>{{loc.p}}</td>
+        </tr>
+    </tbody>
+    {% endfor %}
+</table>
 </body>
 </html>

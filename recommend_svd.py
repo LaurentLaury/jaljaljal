@@ -33,6 +33,8 @@ def do(user_i, df) :
 
     result = pd.DataFrame(L)
     result.sort_values(["est"], ascending=False, inplace=True )
+    result = result.loc[:,["uid", "iid", "est"]]
+    result.columns=["이름", "장소", "p"]
     return result[:100]
 
 # def do(user_i, df) :
