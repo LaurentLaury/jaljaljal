@@ -9,6 +9,7 @@ import recommend_svd as rs
 import get
 import main as mm
 import jjj_login as jl
+import jjj_manage as jm
 
 
 app = Flask(__name__)
@@ -23,17 +24,18 @@ def home():
 def post():
     value = request.form['input']
     result = jl.checking_name(value)
+    query = jm.get_rec()
     if (result == 1):
         return render_template("jjj/login_success.html", name=value)
     else:
-        return render_template("jjj/login_fail.html", name=value)
+        return render_template("jjj/login_fail.html", name=value, data = query)
+
 
 
 @app.route("/hybrid/<name>")
 def hybrid(name):
     result = mm.main(name)
-    result_1 = result.to_json(orient='records', force_ascii=False)
-    return render_template("jjj/hybrid.html", data=result_1)
+    return render_template("jjj/hybrid.html", data=result)
 
 
 
