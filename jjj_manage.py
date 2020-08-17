@@ -18,6 +18,18 @@ class Recommend() :
     def to_dict(self):
         return {"idx":self.idx, "name":self.name, "category":self.category, "addr":self.addr, "est":self.est}
 
+class Comment() :
+    def __init__(self, name, star, review):
+        self.name = name
+        self.star = star
+        self.review = review
+
+    def __str__(self):
+        return f"{self.name}, {self.star}, {self.review}"
+
+    def to_dict(self):
+        return {"name":self.name, "star":self.star, "review":self.review}
+
 
 # 비회원 추천 목록 가져오는 쿼리
 def get_rec():
@@ -31,3 +43,12 @@ def get_rec():
         reco.append(Recommend(*data))
     return reco
 
+# 비회원 추천 목록 댓글 더보는 쿼리
+def find_comment(place):
+    sql = "select name, star, review from recommend where place =: place"
+    cursor = conn.cursor()
+    cursor.execute(sql, {"place":place})
+    com = []
+    for data in cursor:
+        com.append(Comment(*data))
+    return com
