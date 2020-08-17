@@ -136,6 +136,9 @@ def recommend_hybrid(user_i) :
     df = pd.DataFrame(M)
     df.columns=["장소", "p_u","p_i","alpha","p"]
     df.sort_values(["p"], ascending=False, inplace=True, ignore_index=True)
+    df["이름"] = user_i
+    df = df.loc[:,["이름","장소","p"]]
+    df = df[["이름", "장소","p"]]
     return df[df["p"]>3]
 
 def do(user_i, df) :
