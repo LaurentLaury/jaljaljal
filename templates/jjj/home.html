@@ -3,13 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
+    <link href="static/default.css" rel="stylesheet", type="text/css" media="all">
+    <link href="static/fonts.css" rel="stylesheet", type="text/css" media="all">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
 </head>
 <body>
 <h1>어디가지?</a></h1>
 <h2>아이디를 입력하세요</h2>
-<form class="input">
-    <input type = "text" name = "NAME"> </form>
-<li><a href="recommend_result.html" class="button">로그인</a></li>
+<form method="post" action="/post">
+   <p> 이름 : <input type = "text" id="input" name = "input"> </p>
+ <p> 이름을 입력하고 제출버튼을 누르세요.
+     <input type="submit" value="제출" onclick="alert('제출완료!')"/> </p>
+</form>
 
 
 아이디 있으면 1 없으면 0 : {{data}}
