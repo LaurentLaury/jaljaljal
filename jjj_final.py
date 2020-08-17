@@ -30,6 +30,11 @@ def post():
     else:
         return render_template("jjj/login_fail.html", name=value, data = reco)
 
+@app.route("/unmember/comment/<place>", methods=['GET'])
+def find_comment(place):
+    com = jm.find_comment(place)
+    return render_template("jjj/unmember_comment.html", data= com)
+
 
 
 @app.route("/hybrid/<name>")
