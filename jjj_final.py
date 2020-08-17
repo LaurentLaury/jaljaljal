@@ -24,11 +24,11 @@ def home():
 def post():
     value = request.form['input']
     result = jl.checking_name(value)
-    query = jm.get_rec()
+    reco = jm.get_rec()
     if (result == 1):
         return render_template("jjj/login_success.html", name=value)
     else:
-        return render_template("jjj/login_fail.html", name=value, data = query)
+        return render_template("jjj/login_fail.html", name=value, data = reco)
 
 
 
