@@ -34,23 +34,6 @@ def hybrid(name):
     result = mm.main(name)
     return render_template("jjj/hybrid.html", data=result)
 
-    os.putenv('NLS_LANG', 'KOREAN_KOREA.KO16MSWIN949')
-    connection = cx_Oracle.connect('hr/hr@192.168.2.27:1521/xe')
-    cur = connection.cursor()
-    cur.execute("select distinct name from jjj_rec ")
-    member = []
-    for result in cur:
-        member.append(result[0])
-    cur.close()
-    connection.close()
-
-    if name not in member:
-        mm.main(name)
-
-    reco = mm.get_recommend_info(name)
-
-    return render_template("jjj/hybrid.html", data=reco)
-
 # 혜민 test
 @app.route("/chart")
 def chart():
@@ -60,7 +43,3 @@ def chart():
 if __name__=='__main__':
     app.debug = True
     app.run()
-
-
-
-
