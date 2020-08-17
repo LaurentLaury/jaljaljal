@@ -1,4 +1,6 @@
 from flask import Flask, render_template, request, redirect
+import cx_Oracle
+import os
 import pandas as pd
 import numpy as np
 import json
@@ -30,12 +32,33 @@ def post():
     else:
         return render_template("jjj/login_fail.html", name=value, data = reco)
 
+@app.route("/chart/<name>")
+def chart(name):
+    result = mm.get_recommend_info(name)
+    address_count, ctg_count = mm.get_chart_data(result)
+    length = len(address_count)
+    return render_template("jjj/graph1.html", data=address_count, len = length)
 
 
 @app.route("/hybrid/<name>")
 def hybrid(name):
-    result = mm.main(name)
-    return render_template("jjj/hybrid.html", data=result)
+
+    os.putenv('NLS_LANG', 'KOREAN_KOREA.KO16MSWIN949')
+    connection = cx_Oracle.connect('hr/hr@192.168.2.27:1521/xe')
+    cur = connection.cursor()
+    cur.execute("select distinct name from jjj_rec ")
+    member = []
+    for result in cur:
+        member.append(result[0])
+    cur.close()
+    connection.close()
+
+    if name not in member:
+        mm.main(name)
+
+    reco = mm.get_recommend_info(name)
+
+    return render_template("jjj/hybrid.html", data=reco)
 
 
 

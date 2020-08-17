@@ -11,6 +11,7 @@
 }
 </style>
 
+
 <!-- Resources -->
 <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
 <script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
@@ -28,12 +29,16 @@ var chart = am4core.create("chartdiv", am4charts.XYChart);
 chart.hiddenState.properties.opacity = 0; // this creates initial fade-in
 
 chart.data = [
-{% for i in range(len(data) %}
+{% for i in range(len-1) %}
 {
-    country : {{address_count[i][0]}}
-    visits : {{address_count[i][1]}}
-}
+    country : "{{data[i][0]}}",
+    visits : {{data[i][1]}}
+},
 {% endfor %}
+{
+    country : "{{data[len-1][0]}}",
+    visits : {{data[len-1][1]}}
+}
 ];
 
 
@@ -45,7 +50,7 @@ categoryAxis.fontSize = 11;
 
 var valueAxis = chart.yAxes.push(new am4charts.ValueAxis());
 valueAxis.min = 0;
-valueAxis.max = 24000;
+valueAxis.max = 50;
 valueAxis.strictMinMax = true;
 valueAxis.renderer.minGridDistance = 30;
 // axis break
@@ -99,5 +104,6 @@ series.columns.template.adapter.add("fill", function(fill, target) {
 </head>
 <body>
 <div id="chartdiv"></div>
+
 </body>
 </html>
