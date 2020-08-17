@@ -10,8 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="011b8534-7c28-4e49-a6ec-426abe9f5bd9" name="Default Changelist" comment="chart 구현 수정">
+    <list default="true" id="011b8534-7c28-4e49-a6ec-426abe9f5bd9" name="Default Changelist" comment="불필요한 html 삭제">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj_final.py" beforeDir="false" afterPath="$PROJECT_DIR$/jjj_final.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597647683694</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="불필요한 html 삭제">
+      <created>1597651892405</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1597651892405</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -270,7 +278,8 @@
     <MESSAGE value="동기화 테스트2" />
     <MESSAGE value="login_success.html의 불필요한 코드 제거" />
     <MESSAGE value="chart 구현 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="chart 구현 수정" />
+    <MESSAGE value="불필요한 html 삭제" />
+    <option name="LAST_COMMIT_MESSAGE" value="불필요한 html 삭제" />
   </component>
   <component name="WindowStateProjectService">
     <state x="326" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597389121310">
@@ -293,22 +302,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597631289943" />
-    <state width="1481" height="352" key="GridCell.Tab.0.bottom" timestamp="1597651638213">
+    <state width="912" height="187" key="GridCell.Tab.0.bottom" timestamp="1597652337149">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1481" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597651638213" />
-    <state width="1481" height="352" key="GridCell.Tab.0.center" timestamp="1597651638212">
+    <state width="912" height="187" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597652337149" />
+    <state width="912" height="187" key="GridCell.Tab.0.center" timestamp="1597652337149">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1481" height="352" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597651638212" />
-    <state width="1481" height="352" key="GridCell.Tab.0.left" timestamp="1597651638212">
+    <state width="912" height="187" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597652337149" />
+    <state width="912" height="187" key="GridCell.Tab.0.left" timestamp="1597652337149">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1481" height="352" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597651638212" />
-    <state width="1481" height="352" key="GridCell.Tab.0.right" timestamp="1597651638212">
+    <state width="912" height="187" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597652337149" />
+    <state width="912" height="187" key="GridCell.Tab.0.right" timestamp="1597652337149">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1481" height="352" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597651638212" />
+    <state width="912" height="187" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597652337149" />
     <state x="566" y="220" key="RollbackChangesDialog" timestamp="1597651626229">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -317,18 +326,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="188" y="123" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597635954649" />
-    <state x="1032" y="252" key="Vcs.Push.Dialog.v2" timestamp="1597648205347">
+    <state x="1032" y="252" key="Vcs.Push.Dialog.v2" timestamp="1597651900443">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597648205347" />
+    <state x="1032" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597651900443" />
     <state x="295" y="496" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597651644692">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="295" y="496" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597651644692" />
-    <state x="678" y="306" key="git4idea.merge.GitPullDialog" timestamp="1597649495319">
+    <state x="678" y="306" key="git4idea.merge.GitPullDialog" timestamp="1597651658837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="678" y="306" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597649495319" />
+    <state x="678" y="306" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597651658837" />
     <state x="730" y="392" width="611" height="285" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1597372126009">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

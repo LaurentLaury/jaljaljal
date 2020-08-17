@@ -34,10 +34,10 @@ def hybrid(name):
     result = mm.main(name)
     return render_template("jjj/hybrid.html", data=result)
 
-# 혜민 test
+
 @app.route("/chart")
 def chart():
-    return render_template("jjj/chart_analysis.html")
+    return render_template("jjj/graph1.html")
 
 
 if __name__=='__main__':
