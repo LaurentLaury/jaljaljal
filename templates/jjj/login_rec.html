@@ -1,38 +1,43 @@
+<!-- login_rec.html -->
+
 <!DOCTYPE html>
-<html xmlns = "http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>로그인 실패</title>
+    <title>로그인회원 일반추천 </title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
-    </style>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-
-</head >
+</head>
 <body>
-<h1>{{name}}님 환영합니다!</h1>
-<h2> 회원님을 위한 일반 추천을 해드릴게요</h2>
+<h1>{{name}}님을 위한 일반 추천입니다.<h2>
+
+#{{inquery}}
 
 <table class="table table-bordered">
     <thead>
         <tr>
-            <th scope="col">상호</th>
-            <th scope="col">카테고리</th>
-            <th scope="col">주소</th>
+            <th scope="col">NAME</th>
+            <th scope="col">PLACE</th>
             <th scope="col">별점</th>
+            <th scope="col">REGION</th>
+            <th scope="col">CATEGORY</th>
+            <th scope="col">insert_date</th>
         </tr>
     </thead>
-    {% for detail in data %}
+    {% for loc in data %}
     <tbody>
         <tr>
-            <td>{{detail[1]}}</td>
-            <td>{{detail[2]}}</td>
-            <td>{{detail[3]}}</td>
-            <td>{{detail[4]}}</td>
+            <td>{{loc.name}}</td>
+            <td>{{loc.place}}</td>
+            <td>{{loc.rating}}</td>
+            <td>{{loc.region}}</td>
+            <td>{{loc.category}}</td>
+            <td>{{loc.insert_date}}</td>
         </tr>
     </tbody>
     {% endfor %}
 </table>
+
 </body>
 </html>
