@@ -11,6 +11,7 @@
 }
 </style>
 
+
 <!-- Resources -->
 <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
 <script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
@@ -28,55 +29,18 @@ var chart = am4core.create("chartdiv", am4charts.XYChart);
 chart.hiddenState.properties.opacity = 0; // this creates initial fade-in
 
 chart.data = [
-  {
-    country: "USA",
-    visits: 23725
-  },
-  {
-    country: "China",
-    visits: 1882
-  },
-  {
-    country: "Japan",
-    visits: 1809
-  },
-  {
-    country: "Germany",
-    visits: 1322
-  },
-  {
-    country: "UK",
-    visits: 1122
-  },
-  {
-    country: "France",
-    visits: 1114
-  },
-  {
-    country: "India",
-    visits: 984
-  },
-  {
-    country: "Spain",
-    visits: 711
-  },
-  {
-    country: "Netherlands",
-    visits: 665
-  },
-  {
-    country: "Russia",
-    visits: 580
-  },
-  {
-    country: "South Korea",
-    visits: 443
-  },
-  {
-    country: "Canada",
-    visits: 441
-  }
+{% for i in range(len-1) %}
+{
+    country : "{{data[i][0]}}",
+    visits : {{data[i][1]}}
+},
+{% endfor %}
+{
+    country : "{{data[len-1][0]}}",
+    visits : {{data[len-1][1]}}
+}
 ];
+
 
 var categoryAxis = chart.xAxes.push(new am4charts.CategoryAxis());
 categoryAxis.renderer.grid.template.location = 0;
@@ -86,7 +50,7 @@ categoryAxis.fontSize = 11;
 
 var valueAxis = chart.yAxes.push(new am4charts.ValueAxis());
 valueAxis.min = 0;
-valueAxis.max = 24000;
+valueAxis.max = 50;
 valueAxis.strictMinMax = true;
 valueAxis.renderer.minGridDistance = 30;
 // axis break
@@ -140,5 +104,6 @@ series.columns.template.adapter.add("fill", function(fill, target) {
 </head>
 <body>
 <div id="chartdiv"></div>
+
 </body>
 </html>

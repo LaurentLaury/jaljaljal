@@ -136,7 +136,14 @@ def recommend_hybrid(user_i) :
     df = pd.DataFrame(M)
     df.columns=["장소", "p_u","p_i","alpha","p"]
     df.sort_values(["p"], ascending=False, inplace=True, ignore_index=True)
-    return df[df["p"]>3]
+    df["이름"] = user_i
+    df["주소"] = df["장소"].map(lambda x : x.split('*')[1])
+    df["장소"] = df["장소"].map(lambda x : x.split('*')[0])
+    df.reset_index(drop=True, inplace=True)
+    df = df.loc[:,["이름","장소","p", "주소"]]
+    df = df[["이름", "장소","p", "주소"]]
+    df.columns=["name", "place", "rating", "region"]
+    return df[df["rating"]>3]
 
 def do(user_i, df) :
     global user_base

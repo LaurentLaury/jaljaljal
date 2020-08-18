@@ -33,6 +33,11 @@ def do(user_i, df) :
 
     result = pd.DataFrame(L)
     result.sort_values(["est"], ascending=False, inplace=True )
+    result = result.loc[:,["uid", "iid", "est"]]
+    result["주소"] = result["iid"].map(lambda x : x.split('*')[1])
+    result["iid"] = result["iid"].map(lambda x : x.split('*')[0])
+    result.reset_index(drop=True, inplace=True)
+    result.columns=["name", "place", "rating", "region"]
     return result[:100]
 
 # def do(user_i, df) :
