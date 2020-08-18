@@ -12,6 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="011b8534-7c28-4e49-a6ec-426abe9f5bd9" name="Default Changelist" comment="home.html에 footer 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/default.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/jjj/graph1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/jjj/graph1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/jjj/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/jjj/home.html" afterDir="false" />
     </list>
@@ -60,9 +61,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Python37\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jjj_final.py" />
@@ -266,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597734325150</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="home.html에 footer 추가">
+      <created>1597734811646</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1597734811646</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -339,6 +347,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="580" y="105" key="#jjj/0.0.1920.1040@0.0.1920.1040" timestamp="1597373834187" />
+    <state x="477" y="110" key="#jjj_final" timestamp="1597735220075">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="477" y="110" key="#jjj_final/0.0.1920.1040@0.0.1920.1040" timestamp="1597735220075" />
     <state x="666" y="110" key="#test" timestamp="1597373810531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -351,22 +363,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597659732290" />
-    <state width="1603" height="185" key="GridCell.Tab.0.bottom" timestamp="1597734358520">
+    <state width="1107" height="185" key="GridCell.Tab.0.bottom" timestamp="1597738641286">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1603" height="185" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597734358520" />
-    <state width="1603" height="185" key="GridCell.Tab.0.center" timestamp="1597734358520">
+    <state width="1107" height="185" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597738641286" />
+    <state width="1107" height="185" key="GridCell.Tab.0.center" timestamp="1597738641286">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1603" height="185" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597734358520" />
-    <state width="1603" height="185" key="GridCell.Tab.0.left" timestamp="1597734358520">
+    <state width="1107" height="185" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597738641286" />
+    <state width="1107" height="185" key="GridCell.Tab.0.left" timestamp="1597738641286">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1603" height="185" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597734358520" />
-    <state width="1603" height="185" key="GridCell.Tab.0.right" timestamp="1597734358520">
+    <state width="1107" height="185" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597738641286" />
+    <state width="1107" height="185" key="GridCell.Tab.0.right" timestamp="1597738641286">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1603" height="185" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597734358520" />
+    <state width="1107" height="185" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597738641286" />
     <state x="0" y="85" key="MergeDialog" timestamp="1597718189385">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -375,26 +387,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="529" y="385" width="396" height="270" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597718194355" />
-    <state x="566" y="220" key="RollbackChangesDialog" timestamp="1597734187431">
+    <state x="566" y="220" key="RollbackChangesDialog" timestamp="1597737323297">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="566" y="220" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597734187431" />
+    <state x="566" y="220" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597737323297" />
     <state x="188" y="123" key="SettingsEditor" timestamp="1597635954649">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="188" y="123" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597635954649" />
-    <state x="1032" y="252" key="Vcs.Push.Dialog.v2" timestamp="1597734339543">
+    <state x="1032" y="252" key="Vcs.Push.Dialog.v2" timestamp="1597734818108">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597734339543" />
-    <state x="295" y="496" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597734452063">
+    <state x="1032" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597734818108" />
+    <state x="295" y="496" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597737414425">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="295" y="496" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597734452063" />
-    <state x="678" y="306" key="git4idea.merge.GitPullDialog" timestamp="1597734700463">
+    <state x="295" y="496" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597737414425" />
+    <state x="678" y="306" key="git4idea.merge.GitPullDialog" timestamp="1597737398466">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="678" y="306" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597734700463" />
+    <state x="678" y="306" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597737398466" />
     <state x="730" y="392" width="611" height="285" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1597372126009">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
