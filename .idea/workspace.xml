@@ -11,8 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="011b8534-7c28-4e49-a6ec-426abe9f5bd9" name="Default Changelist" comment="불필요한 html 삭제">
+      <change afterPath="$PROJECT_DIR$/templates/jjj/nomal_comment.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jjj_final.py" beforeDir="false" afterPath="$PROJECT_DIR$/jjj_final.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj_manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/jjj_manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/jjj/login_success.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/jjj/login_success.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +42,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../js_test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jjj_test" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -298,26 +301,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="368" y="85" width="1536" height="832" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597648204191" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1597631289943">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1597659732290">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597631289943" />
-    <state width="912" height="187" key="GridCell.Tab.0.bottom" timestamp="1597652337149">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597659732290" />
+    <state width="949" height="277" key="GridCell.Tab.0.bottom" timestamp="1597660343238">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="912" height="187" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597652337149" />
-    <state width="912" height="187" key="GridCell.Tab.0.center" timestamp="1597652337149">
+    <state width="949" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597660343238" />
+    <state width="949" height="277" key="GridCell.Tab.0.center" timestamp="1597660343238">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="912" height="187" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597652337149" />
-    <state width="912" height="187" key="GridCell.Tab.0.left" timestamp="1597652337149">
+    <state width="949" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597660343238" />
+    <state width="949" height="277" key="GridCell.Tab.0.left" timestamp="1597660343238">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="912" height="187" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597652337149" />
-    <state width="912" height="187" key="GridCell.Tab.0.right" timestamp="1597652337149">
+    <state width="949" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597660343238" />
+    <state width="949" height="277" key="GridCell.Tab.0.right" timestamp="1597660343238">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="912" height="187" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597652337149" />
+    <state width="949" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597660343238" />
     <state x="566" y="220" key="RollbackChangesDialog" timestamp="1597651626229">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

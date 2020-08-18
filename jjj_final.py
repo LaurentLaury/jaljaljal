@@ -40,6 +40,14 @@ def chart():
     return render_template("jjj/graph1.html")
 
 
+@app.route("/normal_comment/<name>", methods=['GET'])
+def user_result(name):
+    value = name
+    result = jl.checking_name(value)
+    jjj_reco = jm.get_jjj_rec()
+    return render_template("jjj/nomal_comment.html" , name=value, data=jjj_reco)
+
+
 if __name__=='__main__':
     app.debug = True
     app.run()
