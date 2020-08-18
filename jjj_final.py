@@ -27,10 +27,6 @@ def find_comment(place):
     com = jm.find_comment(place)
     return render_template("jjj/unmember_comment.html", data= com)
 
-# # 혜민 test
-# @app.route("/chart")
-# def chart():
-#     return render_template("jjj/chart_analysis.html")
 
 @app.route("/chart/<name>")
 def chart(name):
@@ -57,6 +53,20 @@ def hybrid(name):
     reco = mm.get_recommend_info(name)
 
     return render_template("jjj/hybrid.html", data=reco)
+
+
+@app.route("/chart")
+def chart():
+    return render_template("jjj/graph1.html")
+
+
+@app.route("/normal_comment/<name>", methods=['GET'])
+def user_result(name):
+    value = name
+    result = jl.checking_name(value)
+    jjj_reco = jm.get_jjj_rec()
+    return render_template("jjj/nomal_comment.html" , name=value, data=jjj_reco)
+
 
 @app.route("/svd/<name>")
 def svd(name):
