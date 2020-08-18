@@ -1,9 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <!-- Styles -->
+    <title>Chart</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Home</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link href="static/fonts.css" rel="stylesheet", type="text/css" media="all">
+    <link href="static/default.css" rel="stylesheet", type="text/css" media="all">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+
+    <!-- chart styles -->
 <style>
 #barchart {
   width: 50%;
@@ -29,8 +42,6 @@
 <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
 <script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
 <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
-
-    <script src="/static/chart.js"></script>
 
 <!-- Chart code -->
     <!-- bar chart code -->
@@ -161,17 +172,29 @@ chart.hiddenState.properties.radius = am4core.percent(0);
 
 }); // end am4core.ready()
 </script>
-
-
 </head>
-
-
 
 <body>
 
+<!-- header -->
+<div id="wrapper">
+	<div id="header" class="container">
+		<div id="logo">
+			<h1><a href="/">어디가지?</a></h1>
+		</div>
+    <div id="menu">
+			<ul>
+				<li class="current_page_item"><a href="/" accesskey="1" title="">Home</a></li>
+				<li><a href="#extra" accesskey="2" title="">지역 분포도</a></li>
+			</ul>
+		</div>
+    </div>
+</div>
+<!-- end of header-->
+
+<div id="chartbox" class="container">
 <h1>{{name}}님의 추천 분석 결과입니다!</h1>
 
-<div id="chart_container" class="container">
 
 <h3> 지역별 추천 결과 </h3>
 <div id="barchart" float="right">  </div>
