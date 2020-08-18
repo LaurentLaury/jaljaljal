@@ -33,8 +33,9 @@ def find_comment(place):
 def chart(name):
     result = mm.get_recommend_info(name)
     address_count, ctg_count = mm.get_chart_data(result)
-    length = len(address_count)
-    return render_template("jjj/graph1.html", data=address_count, len = length)
+    add_length = len(address_count)
+    ctg_length = len(ctg_count)
+    return render_template("jjj/graph1.html", add_data=address_count, add_len = add_length, ctg_data = ctg_count, ctg_len=ctg_length)
 
 @app.route("/hybrid/<name>", methods=['GET'])
 def hybrid(name):
