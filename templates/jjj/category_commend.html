@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>지역 별 추천 받기</title>
 </head>
 <body>
 <h1>카테고리 추천</h1>
 <form action="/category_commend" method="post">
-이름 :
+이름 :{{name}}
 <select name="name">
 {% for row in data["name"] %}
     <option value="{{row[0]}}">{{row[0]}}</option>
@@ -28,6 +28,7 @@
 </select><br>
 <input type="submit" value="추천 받기">
 </form>
+
 </body>
 </html>
 
