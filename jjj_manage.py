@@ -45,7 +45,7 @@ def get_rec():
 
 # 비회원 추천 목록 댓글 더보는 쿼리
 def find_comment(place):
-    sql = "select name, star, review from recommend where place =: place"
+    sql = "select name, star, review from recommend where place =: place order by star desc"
     cursor = conn.cursor()
     cursor.execute(sql, {"place":place})
     com = []

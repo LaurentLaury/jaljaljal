@@ -11,13 +11,75 @@
 </head>
 <body>
 <h1>어디가지?</a></h1>
-<h2>아이디를 입력하세요</h2>
-<form method="post" action="/post">
-   <p> 이름 : <input type = "text" id="input" name = "input"> </p>
- <p> 이름을 입력하고 제출버튼을 누르세요.
-     <input type="submit" value="제출" onclick="alert('제출완료!')"/> </p>
-</form>
 
+<div id="wrapper">
+	<div id="header" class="container">
+		<div id="logo">
+			<h1><a href="/">어디가지?</a></h1>
+		</div>
+		<div id="menu">
+			<ul>
+				<li class="current_page_item"><a href="/" accesskey="1" title="">Home</a></li>
+				<li><a href="home.html #extra" accesskey="2" title="">지역 분포도</a></li>
+				<li><a href="recommend_result.html #featured" accesskey="3" title="">지역 추천</a></li>
+
+			</ul>
+		</div>
+	</div>
+	<h2>아이디를 입력하세요</h2>
+        <form method="post" action="/post">
+           <p> 아이디 : <input type = "text" id="input" name = "input"> </p>
+         <p> 아이디를 입력하고 로그인 버튼을 누르세요.
+             <input type="submit" value="로그인" onclick="alert('로그인 완료!')"/> </p>
+        </form>
+
+
+	<div id="extra" class="container">
+		<div id="folium" class="title">
+			<h2>지역 분포도</h2><br><br>
+			<img src="C:\Users\COM\Desktop\templated-effeminate\images\folium.png" alt="" class="static"><br><br>
+		</div>
+    </div>
+
+	<!--COUNTING UP-->
+	<div class="middle">
+		<div class="counting-sec">
+			<div class="inner-width">
+				<div class="col">
+					 <i class="far fa-smile-wink"></i>
+					 <div class="num">136246</div>
+					  REVIEWS
+				</div>
+
+				<div class="col">
+					 <i class="fas fa-briefcase"></i>
+					 <div class="num">1363469</div>
+					  PLACES
+				</div>
+
+				<div class="col">
+					 <i class="far fa-money-bill-alt"></i>
+					 <div class="num">65646487</div>
+					 USERS
+				</div>
+			</div>
+		</div>
+	</div>
+
+  </div>
+
+
+</div>
+
+<footer>
+<div id="copyright" class="container">
+	<p>&copy; 잘잘잘. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
+</div>
+</footer>
+
+<script type="text/javascript">
+$(".num").counterUp({delay:10,time:1000});
+</script>
 
 아이디 있으면 1 없으면 0 : {{data}}
 </body>

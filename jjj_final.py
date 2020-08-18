@@ -1,5 +1,6 @@
+import os
+import cx_Oracle
 from flask import Flask, render_template, request
-
 import jjj_login as jl
 import jjj_manage as jm
 import main as mm
@@ -35,7 +36,7 @@ def chart(name):
     length = len(address_count)
     return render_template("jjj/graph1.html", data=address_count, len = length)
 
-@app.route("/hybrid/<name>")
+@app.route("/hybrid/<name>", methods=['GET'])
 def hybrid(name):
     os.putenv('NLS_LANG', 'KOREAN_KOREA.KO16MSWIN949')
     connection = cx_Oracle.connect('hr/hr@192.168.2.27:1521/xe')
@@ -55,17 +56,17 @@ def hybrid(name):
     return render_template("jjj/hybrid.html", data=reco)
 
 
-@app.route("/chart")
-def chart():
-    return render_template("jjj/graph1.html")
+# @app.route("/chart")
+# def chart():
+#     return render_template("jjj/graph1.html")
 
 
-@app.route("/normal_comment/<name>", methods=['GET'])
-def user_result(name):
-    value = name
-    result = jl.checking_name(value)
-    jjj_reco = jm.get_jjj_rec()
-    return render_template("jjj/nomal_comment.html" , name=value, data=jjj_reco)
+# @app.route("/normal_comment/<name>", )
+# def user_result(name):
+#     value = name
+#     result = jl.checking_name(value)
+#     jjj_reco = jm.get_jjj_rec()
+#     return render_template("jjj/nomal_comment.html" , name=value, data=jjj_reco)
 
 
 @app.route("/svd/<name>")
