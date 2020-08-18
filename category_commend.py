@@ -8,7 +8,6 @@ def get_name(name):
     cursor.execute(sql, {"name": name})
     result = cursor.fetchall()
     cursor.close()
-    conn.close()
     return result
 
 
@@ -18,7 +17,6 @@ def get_address1():
     cursor.execute(sql)
     result = cursor.fetchall()
     cursor.close()
-    conn.close()
     return result
 
 
@@ -36,5 +34,4 @@ def get_category1():
     cursor.execute(sql)
     result = cursor.fetchall()
     cursor.close()
-    conn.close()
     return result

@@ -46,12 +46,11 @@ def hybrid(name):
     member = []
     for result in cur:
         member.append(result[0])
-    cur.close()
-    connection.close()
 
     if name not in member:
         mm.main(name)
     reco = mm.get_recommend_info(name)
+    cur.close()
     return render_template("jjj/hybrid.html", data=reco, name=name)
 
 
