@@ -22,6 +22,10 @@
 		font-weight: 700;
 		color: #2B3F48;
 	}
+	table
+	{
+	    table-layout:fixed;
+	}
 	
 	p, ol, ul, table
 	{
