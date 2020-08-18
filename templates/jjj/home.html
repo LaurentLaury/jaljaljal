@@ -5,16 +5,64 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Home</title>
+	<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
 	<meta name="keywords" content="" />
 	<meta name="description" content="" />
 	<link href="static/fonts.css" rel="stylesheet", type="text/css" media="all">
     <link href="static/default.css" rel="stylesheet", type="text/css" media="all">
-
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+
+	<style>
+		a.top{
+			position: fixed;
+			display: none;
+			bottom: 20px;
+			right: 20px;
+			z-index: 99;
+			border: 1px;
+			border-style: solid;
+			border-color: rgba(77,77,77,0.1);
+			outline: none;
+			background-color: #212121;
+			color: #ffffff;
+			font-size: 1em;
+			font-weight: bold;
+			cursor: pointer;
+			padding: 25px 29px;
+			border-radius: 1px;
+		}
+
+		a.top:hover{
+			background-color: #47b9e4;
+			border: 1px;
+			border-style: solid;
+			border-color: rgba(77,77,77,0.1);
+		}
+
+	</style>
+
+<script type="text/javascript">
+$( document ).ready( function() {
+			$( window ).scroll( function() {
+				if ( $( this ).scrollTop() > 200 ) {
+					$( '.top' ).fadeIn();
+				} else {
+					$( '.top' ).fadeOut();
+				}
+			} );
+
+			$( '.top' ).click( function() {
+				$( 'html, body' ).animate( { scrollTop : 0 }, 400 );
+				return false;
+			} );
+			$(".num").counterUp({delay:10,time:1000});
+		} );
+</script>
+
 
 </head>
 <body>
@@ -28,8 +76,6 @@
 			<ul>
 				<li class="current_page_item"><a href="/" accesskey="1" title="">Home</a></li>
 				<li><a href="#extra" accesskey="2" title="">지역 분포도</a></li>
-
-
 			</ul>
 		</div>
 	</div>
@@ -58,7 +104,6 @@
     </div>
 
 	<!--COUNTING UP-->
-	<div class="middle">
 		<div class="counting-sec">
 			<div class="inner-width">
 				<div class="col">
@@ -80,23 +125,21 @@
 				</div>
 			</div>
 		</div>
-	</div>
+
 
   </div>
 
 
-</div>
+<a href="#" class="top" >TOP</a>
+
+
+
+</body>
 
 <footer>
 <div id="copyright" class="container">
-	<p>&copy; 잘잘잘. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
+	<p>&copy; 잘잘잘조의 프로젝트 입니다. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
 </div>
 </footer>
 
-<script type="text/javascript">
-$(".num").counterUp({delay:10,time:1000});
-</script>
-
-잘잘잘조의 프로젝트 입니다.
-</body>
 </html>
