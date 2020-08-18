@@ -28,3 +28,7 @@ def checking_name(inserted_name):
         return 1
     else:
         return 0
+
+
+
+
