@@ -52,7 +52,7 @@ def main(user_i, add=None, ctg=5) :
     else :
         df = get.get_df(add, ctg)
         result = recommend_svd.do(user_i, df)
-        result["category"]=ctg
+        result["category"]=float(ctg)
         result["address1"]=add
         os.putenv('NLS_LANG', 'KOREAN_KOREA.KO16MSWIN949')
         connection = cx_Oracle.connect('hr/hr@192.168.2.27:1521/xe')
@@ -84,26 +84,50 @@ def get_chart_data(reco) :
         ctg_count.append([ctg, L.count(ctg)])
     return address_count, ctg_count
 
-def get_recommend_info(name) :
+def get_recommend_info(name, add=None, ctg=5) :
     os.putenv('NLS_LANG', 'KOREAN_KOREA.KO16MSWIN949')
     conn = cx_Oracle.connect('hr/hr@192.168.2.27:1521/xe')
-    sql = """select name, place, category, region, round(rating,2) as rating, address1
+    if add==None :
+        sql = """select name, place, category, region, round(rating,2) as rating, address1
+               from (select distinct a.name as name, a.place as place, a.region as region, a.rating as rating
+               , case b.category1 when 0 then '음식점'
+                                when 1 then '숙박'
+                                when 2 then '관광지'
+                                when 3 then '카페'
+                                when 4 then '술집' end as category
+                , b.address1 as address1
+                from jjj_rec a
+                left outer join recommend b
+                on a.place= b.place
+                and a.region = b.address 
+                order by a.rating desc)
+                where name=:name"""
+        cursor = conn.cursor()
+        cursor.execute(sql, {"name": name})
+    else :
+        sql = """select name, place, category, region, round(rating,2) as rating, address1
            from (select distinct a.name as name, a.place as place, a.region as region, a.rating as rating
            , case b.category1 when 0 then '음식점'
                             when 1 then '숙박'
                             when 2 then '관광지'
                             when 3 then '카페'
                             when 4 then '술집' end as category
-            , b.address1 as address1
-            from jjj_rec a
+            , a.address1 as address1
+            from jjj_rec_add a
             left outer join recommend b
             on a.place= b.place
-            and a.region = b.address 
+            and a.region = b.address
+            where a.category=:category
+            and a.address1=:address1
             order by a.rating desc)
             where name=:name"""
-    cursor = conn.cursor()
-    cursor.execute(sql, {"name": name})
+        cursor = conn.cursor()
+        cursor.execute(sql, {"name":name,  "category":ctg, "address1":add})
+
     reco = []
     for data in cursor:
         reco.append(data)
+
+    cursor.close()
+    conn.close()
     return reco

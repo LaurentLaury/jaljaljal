@@ -13,8 +13,6 @@
     <list default="true" id="011b8534-7c28-4e49-a6ec-426abe9f5bd9" name="Default Changelist" comment="없어진 파일 다시 복구">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jjj_final.py" beforeDir="false" afterPath="$PROJECT_DIR$/jjj_final.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/jjj/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/jjj/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/jjj/login_success.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/jjj/login_success.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -304,34 +302,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="110" key="#test/0.0.1920.1040@0.0.1920.1040" timestamp="1597373810531" />
-    <state x="368" y="85" width="1536" height="832" key="DiffContextDialog" timestamp="1597648204191">
+    <state x="368" y="85" width="1536" height="832" key="DiffContextDialog" timestamp="1597713533882">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="368" y="85" width="1536" height="832" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597648204191" />
+    <state x="368" y="85" width="1536" height="832" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597713533882" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1597659732290">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597659732290" />
-    <state width="949" height="277" key="GridCell.Tab.0.bottom" timestamp="1597660650105">
+    <state width="1082" height="187" key="GridCell.Tab.0.bottom" timestamp="1597714560739">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597660650105" />
-    <state width="949" height="277" key="GridCell.Tab.0.center" timestamp="1597660650104">
+    <state width="1082" height="187" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597714560739" />
+    <state width="1082" height="187" key="GridCell.Tab.0.center" timestamp="1597714560739">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597660650104" />
-    <state width="949" height="277" key="GridCell.Tab.0.left" timestamp="1597660650104">
+    <state width="1082" height="187" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597714560739" />
+    <state width="1082" height="187" key="GridCell.Tab.0.left" timestamp="1597714560739">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597660650104" />
-    <state width="949" height="277" key="GridCell.Tab.0.right" timestamp="1597660650105">
+    <state width="1082" height="187" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597714560739" />
+    <state width="1082" height="187" key="GridCell.Tab.0.right" timestamp="1597714560739">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597660650105" />
-    <state x="566" y="220" key="RollbackChangesDialog" timestamp="1597651626229">
+    <state width="1082" height="187" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597714560739" />
+    <state x="566" y="220" key="RollbackChangesDialog" timestamp="1597714514567">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="566" y="220" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597651626229" />
+    <state x="566" y="220" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597714514567" />
     <state x="188" y="123" key="SettingsEditor" timestamp="1597635954649">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -344,10 +342,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="295" y="496" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597711941389" />
-    <state x="678" y="306" key="git4idea.merge.GitPullDialog" timestamp="1597651658837">
+    <state x="678" y="306" key="git4idea.merge.GitPullDialog" timestamp="1597714526552">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="678" y="306" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597651658837" />
+    <state x="678" y="306" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597714526552" />
     <state x="730" y="392" width="611" height="285" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1597372126009">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
