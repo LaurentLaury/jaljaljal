@@ -4,7 +4,7 @@ from flask import Flask, render_template, request
 import jjj_login as jl
 import jjj_manage as jm
 import main as mm
-
+import category_commend as cc
 app = Flask(__name__)
 
 # 로그인 기능
@@ -33,8 +33,9 @@ def find_comment(place):
 def chart(name):
     result = mm.get_recommend_info(name)
     address_count, ctg_count = mm.get_chart_data(result)
-    length = len(address_count)
-    return render_template("jjj/graph1.html", data=address_count, len = length)
+    add_length = len(address_count)
+    ctg_length = len(ctg_count)
+    return render_template("jjj/graph1.html", add_data=address_count, add_len = add_length, ctg_data = ctg_count, ctg_len=ctg_length)
 
 @app.route("/hybrid/<name>", methods=['GET'])
 def hybrid(name):
@@ -80,6 +81,46 @@ def svd(name):
     reco = mm.get_recommend_info(name)
 
     return render_template("jjj/hybrid.html", data=reco)
+
+
+@app.route("/category_commend/<name>", methods=["GET"])
+def category_commend(name):
+    value = name
+    name = cc.get_name(value)
+    address1_list = cc.get_address1()
+    category1_list = cc.get_category1()
+    return render_template("jjj/category_commend.html", name=value, data={"name": name,
+                                                              "address1_list": address1_list,
+                                                              "category1_list": category1_list})
+
+
+
+
+@app.route("/category_commend", methods=["POST"])
+def rec_addr_ctg():
+    name = request.form["name"]
+    add = request.form["address1"]
+    ctg = int(request.form["category1"])
+    print(ctg)
+
+    os.putenv('NLS_LANG', 'KOREAN_KOREA.KO16MSWIN949')
+    connection = cx_Oracle.connect('hr/hr@192.168.2.27:1521/xe')
+    cur = connection.cursor()
+    cur.execute("select distinct name from jjj_rec_add where category=:category and address1=:address1", {"category":ctg, "address1":add})
+    member = []
+    for result in cur:
+        member.append(result[0])
+    cur.close()
+    connection.close()
+
+    if name not in member:
+        mm.main(name, add, ctg)
+
+    result = mm.get_recommend_info(name, add, ctg)
+
+    return render_template("jjj/category_commend2.html", data=result)
+
+
 
 if __name__=='__main__':
     app.debug = True
