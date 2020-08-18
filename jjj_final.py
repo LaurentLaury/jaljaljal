@@ -29,7 +29,7 @@ def find_comment(place):
     return render_template("jjj/unmember_comment.html", data= com)
 
 
-@app.route("/chart/<name>")
+@app.route("/chart/<name>", methods=['GET'])
 def chart(name):
     result = mm.get_recommend_info(name)
     address_count, ctg_count = mm.get_chart_data(result)

@@ -12,6 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="011b8534-7c28-4e49-a6ec-426abe9f5bd9" name="Default Changelist" comment="chart 데이터 넣음">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj_final.py" beforeDir="false" afterPath="$PROJECT_DIR$/jjj_final.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/jjj/hybrid.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/jjj/hybrid.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -325,22 +327,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597659732290" />
-    <state width="1022" height="187" key="GridCell.Tab.0.bottom" timestamp="1597719212884">
+    <state width="949" height="277" key="GridCell.Tab.0.bottom" timestamp="1597720979562">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1022" height="187" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597719212884" />
-    <state width="1022" height="187" key="GridCell.Tab.0.center" timestamp="1597719212884">
+    <state width="949" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597720979562" />
+    <state width="949" height="277" key="GridCell.Tab.0.center" timestamp="1597720979562">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1022" height="187" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597719212884" />
-    <state width="1022" height="187" key="GridCell.Tab.0.left" timestamp="1597719212884">
+    <state width="949" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597720979562" />
+    <state width="949" height="277" key="GridCell.Tab.0.left" timestamp="1597720979562">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1022" height="187" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597719212884" />
-    <state width="1022" height="187" key="GridCell.Tab.0.right" timestamp="1597719212884">
+    <state width="949" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597720979562" />
+    <state width="949" height="277" key="GridCell.Tab.0.right" timestamp="1597720979562">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1022" height="187" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597719212884" />
+    <state width="949" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597720979562" />
     <state x="0" y="85" key="MergeDialog" timestamp="1597718189385">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
