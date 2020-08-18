@@ -10,11 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="011b8534-7c28-4e49-a6ec-426abe9f5bd9" name="Default Changelist" comment="home.html에 footer 추가">
+    <list default="true" id="011b8534-7c28-4e49-a6ec-426abe9f5bd9" name="Default Changelist" comment="home 복구">
+      <change afterPath="$PROJECT_DIR$/static/images/일반추천받기.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/카테고리추천받기.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/default.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/jjj/graph1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/jjj/graph1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/jjj/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/jjj/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +42,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jjj_test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/images" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -274,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597734811646</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="home 복구">
+      <created>1597738915661</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1597738915661</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -336,7 +344,8 @@
     <MESSAGE value="chart 옆으로 정렬" />
     <MESSAGE value="graph1.html에 header 추가" />
     <MESSAGE value="home.html에 footer 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="home.html에 footer 추가" />
+    <MESSAGE value="home 복구" />
+    <option name="LAST_COMMIT_MESSAGE" value="home 복구" />
   </component>
   <component name="WindowStateProjectService">
     <state x="326" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597389121310">
@@ -355,58 +364,58 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="110" key="#test/0.0.1920.1040@0.0.1920.1040" timestamp="1597373810531" />
-    <state x="148" y="49" width="1715" height="832" key="DiffContextDialog" timestamp="1597734590759">
+    <state x="148" y="49" width="1715" height="832" key="DiffContextDialog" timestamp="1597738889968">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="148" y="49" width="1715" height="832" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597734590759" />
+    <state x="148" y="49" width="1715" height="832" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597738889967" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1597659732290">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597659732290" />
-    <state width="1107" height="185" key="GridCell.Tab.0.bottom" timestamp="1597738641286">
+    <state width="1178" height="185" key="GridCell.Tab.0.bottom" timestamp="1597739519553">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1107" height="185" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597738641286" />
-    <state width="1107" height="185" key="GridCell.Tab.0.center" timestamp="1597738641286">
+    <state width="1178" height="185" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597739519553" />
+    <state width="1178" height="185" key="GridCell.Tab.0.center" timestamp="1597739519553">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1107" height="185" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597738641286" />
-    <state width="1107" height="185" key="GridCell.Tab.0.left" timestamp="1597738641286">
+    <state width="1178" height="185" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597739519553" />
+    <state width="1178" height="185" key="GridCell.Tab.0.left" timestamp="1597739519553">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1107" height="185" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597738641286" />
-    <state width="1107" height="185" key="GridCell.Tab.0.right" timestamp="1597738641286">
+    <state width="1178" height="185" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597739519553" />
+    <state width="1178" height="185" key="GridCell.Tab.0.right" timestamp="1597739519553">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1107" height="185" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597738641286" />
-    <state x="0" y="85" key="MergeDialog" timestamp="1597718189385">
+    <state width="1178" height="185" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597739519553" />
+    <state x="0" y="85" width="1877" height="870" key="MergeDialog" timestamp="1597739034227">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="85" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597718189385" />
-    <state x="529" y="385" width="396" height="270" key="MultipleFileMergeDialog" timestamp="1597718194355">
+    <state x="0" y="85" width="1877" height="870" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597739034227" />
+    <state x="533" y="373" width="396" height="270" key="MultipleFileMergeDialog" timestamp="1597739034245">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="529" y="385" width="396" height="270" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597718194355" />
-    <state x="566" y="220" key="RollbackChangesDialog" timestamp="1597737323297">
+    <state x="533" y="373" width="396" height="270" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597739034245" />
+    <state x="566" y="220" key="RollbackChangesDialog" timestamp="1597739196753">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="566" y="220" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597737323297" />
+    <state x="566" y="220" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597739196753" />
     <state x="188" y="123" key="SettingsEditor" timestamp="1597635954649">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="188" y="123" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597635954649" />
-    <state x="1032" y="252" key="Vcs.Push.Dialog.v2" timestamp="1597734818108">
+    <state x="1032" y="252" key="Vcs.Push.Dialog.v2" timestamp="1597739073278">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597734818108" />
-    <state x="295" y="496" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597737414425">
+    <state x="1032" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597739073278" />
+    <state x="295" y="496" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597739502282">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="295" y="496" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597737414425" />
-    <state x="678" y="306" key="git4idea.merge.GitPullDialog" timestamp="1597737398466">
+    <state x="295" y="496" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597739502282" />
+    <state x="678" y="306" key="git4idea.merge.GitPullDialog" timestamp="1597739491203">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="678" y="306" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597737398466" />
+    <state x="678" y="306" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597739491203" />
     <state x="730" y="392" width="611" height="285" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1597372126009">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
