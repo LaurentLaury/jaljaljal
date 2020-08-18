@@ -1,43 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Home</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link href="http://fonts.googleapis.com/css?family=Varela" rel="stylesheet" />
     <link href="static/default.css" rel="stylesheet", type="text/css" media="all">
     <link href="static/fonts.css" rel="stylesheet", type="text/css" media="all">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
 </head>
 <body>
-<h1>어디가지?</a></h1>
 
 <div id="wrapper">
 	<div id="header" class="container">
 		<div id="logo">
-			<h1><a href="home.html">어디가지?</a></h1>
+			<h1><a href="/">어디가지?</a></h1>
 		</div>
 		<div id="menu">
 			<ul>
-				<li class="current_page_item"><a href="home.html" accesskey="1" title="">Home</a></li>
-				<li><a href="home.html #extra" accesskey="2" title="">지역 분포도</a></li>
-				<li><a href="recommend_result.html #featured" accesskey="3" title="">지역 추천</a></li>
+				<li class="current_page_item"><a href="/" accesskey="1" title="">Home</a></li>
+				<li><a href="#extra" accesskey="2" title="">지역 분포도</a></li>
+
 
 			</ul>
 		</div>
 	</div>
-	<h2>아이디를 입력하세요</h2>
-        <form method="post" action="/post">
-           <p> 이름 : <input type = "text" id="input" name = "input"> </p>
-         <p> 이름을 입력하고 제출버튼을 누르세요.
-             <input type="submit" value="제출" onclick="alert('제출완료!')"/> </p>
-        </form>
+	<div id="banner">
+		<div class="container">
+			<div class="title">
+				<h2 align="center">아이디를 입력하세요</h2>
+			</div>
+			<ul class="actions">
+					<form method="post" class="input" action="/post" >
+					   <input type = "text" id="input" name = "input" class="input"><br/>
+						<li>
+						<input type="submit" class="button" value="로그인" onclick="alert('로그인 완료!')"/> </p>
+						</li>
+					</form>
+			</ul>
+		</div>
+	</div>
 
 
 	<div id="extra" class="container">
 		<div id="folium" class="title">
 			<h2>지역 분포도</h2><br><br>
-			<img src="C:\Users\COM\Desktop\templated-effeminate\images\folium.png" alt="" class="static"><br><br>
+			<img src="static\images\folium.png" alt="" class="static"><br><br>
 		</div>
     </div>
 
@@ -46,19 +60,19 @@
 		<div class="counting-sec">
 			<div class="inner-width">
 				<div class="col">
-					 <i class="far fa-smile-wink"></i>
+					 <i class="fa fa-newspaper-o"></i>
 					 <div class="num">136246</div>
 					  REVIEWS
 				</div>
 
 				<div class="col">
-					 <i class="fas fa-briefcase"></i>
+					 <i class="fa fa-map-o"></i>
 					 <div class="num">1363469</div>
 					  PLACES
 				</div>
 
 				<div class="col">
-					 <i class="far fa-money-bill-alt"></i>
+					 <i class="far fa-smile-wink"></i>
 					 <div class="num">65646487</div>
 					 USERS
 				</div>
@@ -81,6 +95,6 @@
 $(".num").counterUp({delay:10,time:1000});
 </script>
 
-아이디 있으면 1 없으면 0 : {{data}}
+잘잘잘조의 프로젝트 입니다.
 </body>
 </html>
