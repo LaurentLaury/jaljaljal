@@ -11,9 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="011b8534-7c28-4e49-a6ec-426abe9f5bd9" name="Default Changelist" comment="graph1.html에 header 추가">
+      <change afterPath="$PROJECT_DIR$/templates/jjj/location_recommend.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jaljaljal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jaljaljal.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/jjj/graph1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/jjj/graph1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/jjj/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/jjj/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category_commend.py" beforeDir="false" afterPath="$PROJECT_DIR$/category_commend.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjj_final.py" beforeDir="false" afterPath="$PROJECT_DIR$/jjj_final.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/jjj/category_commend.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/jjj/category_commend.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/jjj/login_success.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/jjj/login_success.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -323,6 +328,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="graph1.html에 header 추가" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="586" y="197" key="#Inspections" timestamp="1597734867078">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="586" y="197" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1597734867078" />
     <state x="326" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597389121310">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -331,6 +340,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="580" y="105" key="#jjj/0.0.1920.1040@0.0.1920.1040" timestamp="1597373834187" />
+    <state x="666" y="110" key="#jjj_final" timestamp="1597734855905">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="666" y="110" key="#jjj_final/0.0.1920.1040@0.0.1920.1040" timestamp="1597734855905" />
     <state x="666" y="110" key="#test" timestamp="1597373810531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -343,22 +356,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597659732290" />
-    <state width="1603" height="185" key="GridCell.Tab.0.bottom" timestamp="1597733522456">
+    <state width="949" height="291" key="GridCell.Tab.0.bottom" timestamp="1597735808322">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1603" height="185" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597733522456" />
-    <state width="1603" height="185" key="GridCell.Tab.0.center" timestamp="1597733522456">
+    <state width="949" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597735808322" />
+    <state width="949" height="291" key="GridCell.Tab.0.center" timestamp="1597735808322">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1603" height="185" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597733522456" />
-    <state width="1603" height="185" key="GridCell.Tab.0.left" timestamp="1597733522456">
+    <state width="949" height="291" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597735808322" />
+    <state width="949" height="291" key="GridCell.Tab.0.left" timestamp="1597735808322">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1603" height="185" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597733522456" />
-    <state width="1603" height="185" key="GridCell.Tab.0.right" timestamp="1597733522456">
+    <state width="949" height="291" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597735808322" />
+    <state width="949" height="291" key="GridCell.Tab.0.right" timestamp="1597735808322">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1603" height="185" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597733522456" />
+    <state width="949" height="291" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597735808322" />
     <state x="0" y="85" key="MergeDialog" timestamp="1597718189385">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -371,10 +384,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="566" y="220" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597734187431" />
-    <state x="188" y="123" key="SettingsEditor" timestamp="1597635954649">
+    <state x="188" y="123" key="SettingsEditor" timestamp="1597735927253">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="188" y="123" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597635954649" />
+    <state x="188" y="123" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597735927253" />
     <state x="1032" y="252" key="Vcs.Push.Dialog.v2" timestamp="1597730882329">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
