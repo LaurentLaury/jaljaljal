@@ -35,20 +35,14 @@ class Comment() :
 def get_rec():
     # sql = "select rec_uid, rec_iid, rec_rui, rec_est from rec"
     # 장소, 카테고리, 주소, 별점
-    sql = "select a.rec_iid, case b.category1 when 0 then '음식점' when 1 then '숙박' when 2 then '관광지' when 3 then '카페' when 4 then '술집' end as category, b.address, a.rec_est from rec a left outer join recommend b on a.rec_iid = b.place and a.rec_uid = b.name"
+    sql = "select a.idx as idx, a.rec_iid as name, case b.category1 when 0 then '음식점' when 1 then '숙박' when 2 then '관광지' when 3 then '카페' when 4 then '술집' end as category, b.address as addr, a.rec_est as est from rec a left outer join recommend b on a.rec_iid = b.place and a.rec_uid = b.name order by idx"
     cursor = conn.cursor()
     cursor.execute(sql)
-    query = cursor.fetchall()
-    return query
-
-#경원 회원 추천 목록 가져오는 쿼리
-
-def get_jjj_rec():
-    sql = "select name, place, rating, region, category, insert_date from jjj_rec;"
-    cursor = conn.cursor()
-    cursor.execute(sql)
-    query = cursor.fetchall()
-    return query
+    reco = []
+    for data in cursor:
+        reco.append(Recommend(*data))
+    cursor.close()
+    return reco
 
 # 비회원 추천 목록 댓글 더보는 쿼리
 def find_comment(place):
@@ -58,5 +52,6 @@ def find_comment(place):
     com = []
     for data in cursor:
         com.append(Comment(*data))
+    cursor.close()
     return com
 

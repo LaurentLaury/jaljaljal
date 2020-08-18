@@ -14,6 +14,7 @@ sql = "select name from recommend"
 cursor = conn.cursor()
 cursor.execute(sql)
 review = cursor.fetchall()
+cursor.close()
 review = pd.DataFrame(review)
 review.columns = ['이름']
 
