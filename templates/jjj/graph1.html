@@ -6,13 +6,15 @@
     <!-- Styles -->
 <style>
 #barchart {
-  width: 100%;
-  height: 500px;
+  width: 50%;
+  height: 300px;
+  float: left;
 }
 
 #piechart {
-  width: 100%;
-  height: 500px;
+  width: 50%;
+  height: 300px;
+  float: right;
 }
 </style>
 
@@ -27,6 +29,8 @@
 <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
 <script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
 <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+
+    <script src="/static/chart.js"></script>
 
 <!-- Chart code -->
     <!-- bar chart code -->
@@ -164,9 +168,19 @@ chart.hiddenState.properties.radius = am4core.percent(0);
 
 
 <body>
-<div id="barchart"></div>
 
-<div id="piechart"></div>
+<h1>{{name}}님의 추천 분석 결과입니다!</h1>
+
+<div id="chart_container" class="container">
+
+<h3> 지역별 추천 결과 </h3>
+<div id="barchart" float="right">  </div>
+
+<h3> 카테고리별 추천 결과 </h3>
+<div id="piechart" float="left"> </div>
+</div>
 
 </body>
+
+
 </html>
