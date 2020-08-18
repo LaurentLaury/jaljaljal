@@ -18,7 +18,6 @@ cursor.close()
 review = pd.DataFrame(review)
 review.columns = ['이름']
 
-
 c=review
 df = pd.DataFrame()
 df["이름"] = c["이름"]
@@ -31,5 +30,6 @@ def checking_name(inserted_name):
         return 0
 
 
+conn.close()
 
 

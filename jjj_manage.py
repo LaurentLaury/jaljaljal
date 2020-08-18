@@ -54,4 +54,3 @@ def find_comment(place):
         com.append(Comment(*data))
     cursor.close()
     return com
-

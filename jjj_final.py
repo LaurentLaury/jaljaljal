@@ -64,14 +64,14 @@ def hybrid(name):
 
 
 
-@app.route("/location_commend/<name>", methods=["GET"])
+@app.route("/location_recommend/<name>", methods=["GET"])
 def location_commend(name):
     value = name
     name = cc.get_name(value)
     address1_list = cc.get_address1()
     return render_template("jjj/location_recommend.html", name=value, data={"name": name, "address1_list": address1_list})
 
-@app.route("/location_commend", methods=["POST"])
+@app.route("/location_recommend", methods=["GET"])
 def rec_addr_ctg():
     name = request.form["name"]
     add = request.form["address1"]
