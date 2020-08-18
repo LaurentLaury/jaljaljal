@@ -15,6 +15,53 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+	<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+
+	<style>
+		a.top{
+			position: fixed;
+			display: none;
+			bottom: 20px;
+			right: 20px;
+			z-index: 99;
+			border: 1px;
+			border-style: solid;
+			border-color: rgba(77,77,77,0.1);
+			outline: none;
+			background-color: #212121;
+			color: #ffffff;
+			font-size: 1em;
+			font-weight: bold;
+			cursor: pointer;
+			padding: 25px 29px;
+			border-radius: 1px;
+		}
+
+		a.top:hover{
+			background-color: #47b9e4;
+			border: 1px;
+			border-style: solid;
+			border-color: rgba(77,77,77,0.1);
+		}
+	</style>
+
+	<script>
+		$( document ).ready( function() {
+			$( window ).scroll( function() {
+				if ( $( this ).scrollTop() > 200 ) {
+					$( '.top' ).fadeIn();
+				} else {
+					$( '.top' ).fadeOut();
+				}
+			} );
+
+			$( '.top' ).click( function() {
+				$( 'html, body' ).animate( { scrollTop : 0 }, 400 );
+				return false;
+			} );
+		} );
+	</script>
+
 
 </head>
 <body>
@@ -58,7 +105,7 @@
     </div>
 
 	<!--COUNTING UP-->
-
+	<div class="middle">
 		<div class="counting-sec">
 			<div class="inner-width">
 				<div class="col">
@@ -80,14 +127,16 @@
 				</div>
 			</div>
 		</div>
-
+	</div>
 
   </div>
 
 
+</div>
+
 <footer>
 <div id="copyright" class="container">
-	<p>&copy; 잘잘잘조의 프로젝트 입니다. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
+	<p>&copy; 잘잘잘. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
 </div>
 </footer>
 
@@ -95,5 +144,7 @@
 $(".num").counterUp({delay:10,time:1000});
 </script>
 
+잘잘잘조의 프로젝트 입니다.
+<a href="#" class="top" >TOP</a>
 </body>
 </html>
