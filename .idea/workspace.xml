@@ -10,23 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="011b8534-7c28-4e49-a6ec-426abe9f5bd9" name="Default Changelist" comment="데이터베이스 conn.close() 추가">
-      <change afterPath="$PROJECT_DIR$/static/images/강원도.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/경상도.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/서울수도권.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/일반추천.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/전라도.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/제주.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/충청도.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/카테고리추천.png" afterDir="false" />
+    <list default="true" id="011b8534-7c28-4e49-a6ec-426abe9f5bd9" name="Default Changelist" comment="일반추천 차트 css 완성">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best_predictions.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_predictions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj_final.py" beforeDir="false" afterPath="$PROJECT_DIR$/jjj_final.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/jjj_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj_manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/jjj_manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login_rec.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/jjj/location_recommend.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/jjj/location_recommend.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/jjj/login_rec.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,16 +39,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/static/images" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\COM\PycharmProjects\jaljaljal\static" />
-      <recent name="C:\Users\COM\PycharmProjects\jaljaljal\jjj" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\COM\PycharmProjects\jjj_0818\static\images" />
       <recent name="C:\Users\COM\PycharmProjects\jaljaljal" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\COM\PycharmProjects\jaljaljal\venv" />
+      <recent name="C:\Users\COM\PycharmProjects\jaljaljal" />
+      <recent name="C:\Users\COM\PycharmProjects\jaljaljal\static" />
+      <recent name="C:\Users\COM\PycharmProjects\jaljaljal\jjj" />
     </key>
   </component>
   <component name="RunManager" selected="Python.jjj_final">
@@ -393,22 +380,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="566" y="220" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597734187431" />
-    <state x="188" y="123" key="SettingsEditor" timestamp="1597635954649">
+    <state x="188" y="123" key="SettingsEditor" timestamp="1597746134197">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="188" y="123" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597635954649" />
+    <state x="188" y="123" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597746134197" />
     <state x="1032" y="252" key="Vcs.Push.Dialog.v2" timestamp="1597734339543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1032" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597734339543" />
-    <state x="295" y="496" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597740632678">
+    <state x="295" y="496" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597745730816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="295" y="496" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597740632678" />
-    <state x="678" y="306" key="git4idea.merge.GitPullDialog" timestamp="1597740590749">
+    <state x="295" y="496" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597745730816" />
+    <state x="678" y="306" key="git4idea.merge.GitPullDialog" timestamp="1597745742329">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="678" y="306" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597740590749" />
+    <state x="678" y="306" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597745742329" />
     <state x="730" y="392" width="611" height="285" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1597372126009">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
