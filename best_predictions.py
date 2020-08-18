@@ -118,7 +118,8 @@ def best_pred():
     sql = "insert into rec(rec_uid, rec_iid, rec_rui, rec_est) values(:rec_uid, :rec_iid, :rec_rui, :rec_est)"
     data = best_predictions[['uid', 'iid', 'rui', 'est']]
     data.columns = ['rec_uid', 'rec_iid', 'rec_rui', 'rec_est']
-
+    cursor.close()
+    conn.close()
     return data
     # # print(dict(data.iloc[i,]))
     #

@@ -64,30 +64,22 @@ def hybrid(name):
 
 
 
-@app.route("/category_commend/<name>", methods=["GET"])
-def category_commend(name):
+@app.route("/location_recommend/<name>", methods=["GET"])
+def location_commend(name):
     value = name
     name = cc.get_name(value)
     address1_list = cc.get_address1()
-    category1_list = cc.get_category1()
-    return render_template("jjj/category_commend.html", name=value, data={"name": name,
-                                                              "address1_list": address1_list,
-                                                              "category1_list": category1_list})
+    return render_template("jjj/location_recommend.html", name=value, data={"name": name, "address1_list": address1_list})
 
-
-
-
-@app.route("/category_commend", methods=["POST"])
+@app.route("/location_recommend", methods=["GET"])
 def rec_addr_ctg():
     name = request.form["name"]
     add = request.form["address1"]
-    ctg = int(request.form["category1"])
-    print(ctg)
 
     os.putenv('NLS_LANG', 'KOREAN_KOREA.KO16MSWIN949')
     connection = cx_Oracle.connect('hr/hr@192.168.2.27:1521/xe')
     cur = connection.cursor()
-    cur.execute("select distinct name from jjj_rec_add where category=:category and address1=:address1", {"category":ctg, "address1":add})
+    cur.execute("select distinct name from jjj_rec_add where address1=:address1", {"address1":add})
     member = []
     for result in cur:
         member.append(result[0])
@@ -95,11 +87,36 @@ def rec_addr_ctg():
     connection.close()
 
     if name not in member:
-        mm.main(name, add, ctg)
+        mm.main(name, add)
 
-    result = mm.get_recommend_info(name, add, ctg)
+    result = mm.get_recommend_info(name, add)
 
     return render_template("jjj/category_commend2.html", data=result)
+
+
+# @app.route("/category_commend", methods=["POST"])
+# def rec_addr_ctg():
+#     name = request.form["name"]
+#     add = request.form["address1"]
+#     ctg = int(request.form["category1"])
+#     print(ctg)
+#
+#     os.putenv('NLS_LANG', 'KOREAN_KOREA.KO16MSWIN949')
+#     connection = cx_Oracle.connect('hr/hr@192.168.2.27:1521/xe')
+#     cur = connection.cursor()
+#     cur.execute("select distinct name from jjj_rec_add where category=:category and address1=:address1", {"category":ctg, "address1":add})
+#     member = []
+#     for result in cur:
+#         member.append(result[0])
+#     cur.close()
+#     connection.close()
+#
+#     if name not in member:
+#         mm.main(name, add, ctg)
+#
+#     result = mm.get_recommend_info(name, add, ctg)
+#
+#     return render_template("jjj/category_commend2.html", data=result)
 
 
 
