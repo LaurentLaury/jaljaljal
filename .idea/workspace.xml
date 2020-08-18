@@ -10,11 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="011b8534-7c28-4e49-a6ec-426abe9f5bd9" name="Default Changelist" comment="불필요한 html 삭제">
-      <change afterPath="$PROJECT_DIR$/category_commend.py" afterDir="false" />
+    <list default="true" id="011b8534-7c28-4e49-a6ec-426abe9f5bd9" name="Default Changelist" comment="없어진 파일 다시 복구">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jjj_final.py" beforeDir="false" afterPath="$PROJECT_DIR$/jjj_final.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjj_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/jjj_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/jjj/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/jjj/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/jjj/login_success.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/jjj/login_success.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -226,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597651892405</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="없어진 파일 다시 복구">
+      <created>1597660616923</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1597660616923</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -282,7 +288,8 @@
     <MESSAGE value="login_success.html의 불필요한 코드 제거" />
     <MESSAGE value="chart 구현 수정" />
     <MESSAGE value="불필요한 html 삭제" />
-    <option name="LAST_COMMIT_MESSAGE" value="불필요한 html 삭제" />
+    <MESSAGE value="없어진 파일 다시 복구" />
+    <option name="LAST_COMMIT_MESSAGE" value="없어진 파일 다시 복구" />
   </component>
   <component name="WindowStateProjectService">
     <state x="326" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597389121310">
@@ -305,22 +312,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597659732290" />
-    <state width="922" height="276" key="GridCell.Tab.0.bottom" timestamp="1597716632736">
+    <state width="949" height="277" key="GridCell.Tab.0.bottom" timestamp="1597660650105">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597716632736" />
-    <state width="922" height="276" key="GridCell.Tab.0.center" timestamp="1597716632736">
+    <state width="949" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597660650105" />
+    <state width="949" height="277" key="GridCell.Tab.0.center" timestamp="1597660650104">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597716632736" />
-    <state width="922" height="276" key="GridCell.Tab.0.left" timestamp="1597716632736">
+    <state width="949" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597660650104" />
+    <state width="949" height="277" key="GridCell.Tab.0.left" timestamp="1597660650104">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597716632736" />
-    <state width="922" height="276" key="GridCell.Tab.0.right" timestamp="1597716632736">
+    <state width="949" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597660650104" />
+    <state width="949" height="277" key="GridCell.Tab.0.right" timestamp="1597660650105">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597716632736" />
+    <state width="949" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597660650105" />
     <state x="566" y="220" key="RollbackChangesDialog" timestamp="1597651626229">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -329,14 +336,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="188" y="123" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597635954649" />
-    <state x="1032" y="252" key="Vcs.Push.Dialog.v2" timestamp="1597651900443">
+    <state x="1032" y="252" key="Vcs.Push.Dialog.v2" timestamp="1597660633486">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597651900443" />
-    <state x="295" y="496" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597651644692">
+    <state x="1032" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597660633486" />
+    <state x="295" y="496" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597711941389">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="295" y="496" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597651644692" />
+    <state x="295" y="496" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597711941389" />
     <state x="678" y="306" key="git4idea.merge.GitPullDialog" timestamp="1597651658837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

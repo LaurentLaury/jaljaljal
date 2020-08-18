@@ -50,15 +50,8 @@ def hybrid(name):
 
     if name not in member:
         mm.main(name)
-
     reco = mm.get_recommend_info(name)
-
     return render_template("jjj/hybrid.html", data=reco)
-
-
-# @app.route("/chart")
-# def chart():
-#     return render_template("jjj/graph1.html")
 
 
 # @app.route("/normal_comment/<name>", )
