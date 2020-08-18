@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>카테고리 추천</h1>
+<form action="/category_commend" method="post">
+이름 :
+<select name="name">
+{% for row in data["name"] %}
+    <option value="{{row[0]}}">{{row[0]}}</option>
+{% endfor %}
+</select><br>
+지역별 :
+<select name="address1">
+{% for row in data["address1_list"] %}
+    <option value="{{row[0]}}">{{row[0]}}</option>
+{% endfor %}
+</select><br>
+분류별 :
+<select name="category1">
+{% for row in data["category1_list"] %}
+    <option value="{{row[0]}}">{{row[0]}}</option>
+{% endfor %}
+    <option value=5>NO</option>
+</select><br>
+<input type="submit" value="추천 받기">
+</form>
+</body>
+</html>
+
+
+
+
+
+
