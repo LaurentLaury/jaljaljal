@@ -7,7 +7,7 @@
 	{
 		margin: 0px;
 		padding: 0px;
-		background: #9C39AE;
+		background: #ffffff;
 		font-family: 'Varela', sans-serif;
 		font-size: 11pt;
 		font-weight: 300;
@@ -112,6 +112,14 @@
 		margin: 0 auto;
 		width: auto;
 	}
+
+	.thumbnail {
+
+		position: relative;
+		padding-top: 100%;
+		overflow: hidden;
+	}
+
 
 /*********************************************************************************/
 /* List Styles                                                                   */
