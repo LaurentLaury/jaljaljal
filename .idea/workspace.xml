@@ -1,61 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="011b8534-7c28-4e49-a6ec-426abe9f5bd9" name="Default Changelist" comment="일반추천 차트 css 완성">
+    <list default="true" id="e12e4643-a0c7-4028-b5ad-6f08747e5461" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jal_cx.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/jjj/hybrid.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/jjj/hybrid.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/jjj/unmember_comment.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/jjj/unmember_comment.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-        <option value="HTML File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1g4NnY6fFdSHWJfSmvrDoWYZPAd" />
+  <component name="ProjectId" id="1gINJX7qaZ5IePncKDBhpWXVGdD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/images" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\COM\PycharmProjects\jjj_0818\static\images" />
-      <recent name="C:\Users\COM\PycharmProjects\jaljaljal" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\COM\PycharmProjects\jaljaljal\venv" />
-      <recent name="C:\Users\COM\PycharmProjects\jaljaljal" />
-      <recent name="C:\Users\COM\PycharmProjects\jaljaljal\static" />
-      <recent name="C:\Users\COM\PycharmProjects\jaljaljal\jjj" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Python.jjj_final">
+  <component name="RunManager">
     <configuration name="jjj_final" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="jaljaljal" />
+      <module name="jal_cx" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -75,58 +53,9 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="jjj_manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="jaljaljal" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jjj_manage.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="jaljaljal" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Python.jjj_final" />
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.jjj_manage" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.jjj_final" />
-        <item itemvalue="Python.jjj_manage" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -135,274 +64,34 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="011b8534-7c28-4e49-a6ec-426abe9f5bd9" name="Default Changelist" comment="" />
-      <created>1597370071876</created>
+      <changelist id="e12e4643-a0c7-4028-b5ad-6f08747e5461" name="Default Changelist" comment="" />
+      <created>1597798075037</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1597370071876</updated>
+      <updated>1597798075037</updated>
     </task>
-    <task id="LOCAL-00001" summary="test">
-      <created>1597370131421</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1597370131421</updated>
-    </task>
-    <task id="LOCAL-00002" summary="jjj_project">
-      <created>1597370604091</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1597370604091</updated>
-    </task>
-    <task id="LOCAL-00003" summary="jjj_project">
-      <created>1597372419668</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1597372419668</updated>
-    </task>
-    <task id="LOCAL-00004" summary="jjj.py , jjj_manage.py에 로그인 함수 추가">
-      <created>1597373062751</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1597373062751</updated>
-    </task>
-    <task id="LOCAL-00005" summary="html 위치 조정">
-      <created>1597373584550</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1597373584550</updated>
-    </task>
-    <task id="LOCAL-00006" summary="파일 경로 다듬기">
-      <created>1597373741922</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1597373741922</updated>
-    </task>
-    <task id="LOCAL-00007" summary="파일 경로 다듬기">
-      <created>1597384616273</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1597384616273</updated>
-    </task>
-    <task id="LOCAL-00008" summary="두열이가 날린 static 복원...">
-      <created>1597386270753</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1597386270753</updated>
-    </task>
-    <task id="LOCAL-00009" summary="동기화 테스트2">
-      <created>1597389661260</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1597389661260</updated>
-    </task>
-    <task id="LOCAL-00010" summary="login_success.html의 불필요한 코드 제거">
-      <created>1597636091566</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1597636091566</updated>
-    </task>
-    <task id="LOCAL-00011" summary="chart 구현 수정">
-      <created>1597647683694</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1597647683694</updated>
-    </task>
-    <task id="LOCAL-00012" summary="불필요한 html 삭제">
-      <created>1597651892405</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1597651892405</updated>
-    </task>
-    <task id="LOCAL-00013" summary="없어진 파일 다시 복구">
-      <created>1597660616923</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1597660616923</updated>
-    </task>
-    <task id="LOCAL-00014" summary="중복된 app.route(chart) 삭제">
-      <created>1597716397138</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1597716397138</updated>
-    </task>
-    <task id="LOCAL-00015" summary="chart 데이터 넣음">
-      <created>1597718149883</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1597718149883</updated>
-    </task>
-    <task id="LOCAL-00016" summary="chart 옆으로 정렬">
-      <created>1597730599387</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1597730599387</updated>
-    </task>
-    <task id="LOCAL-00017" summary="graph1.html에 header 추가">
-      <created>1597732588435</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1597732588435</updated>
-    </task>
-    <task id="LOCAL-00018" summary="home.html에 footer 추가">
-      <created>1597734325150</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1597734325150</updated>
-    </task>
-    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="1">
-          <value>
-            <State>
-              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="HEAD" />
-                      </list>
-                    </value>
-                  </entry>
-                  <entry key="structure">
-                    <value>
-                      <list>
-                        <option value="dir:C:/Users/COM/PycharmProjects/jaljaljal/jjj/.idea/inspectionProfiles" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="OPEN_GENERIC_TABS">
-      <map>
-        <entry key="1" value="TOOL_WINDOW" />
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="test" />
-    <MESSAGE value="jjj_project" />
-    <MESSAGE value="jjj.py , jjj_manage.py에 로그인 함수 추가" />
-    <MESSAGE value="html 위치 조정" />
-    <MESSAGE value="파일 경로 다듬기" />
-    <MESSAGE value="두열이가 날린 static 복원..." />
-    <MESSAGE value="동기화 테스트2" />
-    <MESSAGE value="login_success.html의 불필요한 코드 제거" />
-    <MESSAGE value="chart 구현 수정" />
-    <MESSAGE value="불필요한 html 삭제" />
-    <MESSAGE value="없어진 파일 다시 복구" />
-    <MESSAGE value="중복된 app.route(chart) 삭제" />
-    <MESSAGE value="chart 데이터 넣음" />
-    <MESSAGE value="chart 옆으로 정렬" />
-    <MESSAGE value="graph1.html에 header 추가" />
-    <MESSAGE value="home.html에 footer 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="home.html에 footer 추가" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="326" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597389121310">
+    <state x="739" y="260" key="FileChooserDialogImpl" timestamp="1597798125766">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="326" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597389121310" />
-    <state x="580" y="105" key="#jjj" timestamp="1597373834187">
+    <state x="739" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597798125766" />
+    <state width="1898" height="277" key="GridCell.Tab.0.bottom" timestamp="1597799043069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="580" y="105" key="#jjj/0.0.1920.1040@0.0.1920.1040" timestamp="1597373834187" />
-    <state x="666" y="110" key="#test" timestamp="1597373810531">
+    <state width="1898" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597799043069" />
+    <state width="1898" height="277" key="GridCell.Tab.0.center" timestamp="1597799043069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="666" y="110" key="#test/0.0.1920.1040@0.0.1920.1040" timestamp="1597373810531" />
-    <state x="148" y="49" width="1715" height="832" key="DiffContextDialog" timestamp="1597734590759">
+    <state width="1898" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597799043069" />
+    <state width="1898" height="277" key="GridCell.Tab.0.left" timestamp="1597799043069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="148" y="49" width="1715" height="832" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597734590759" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1597659732290">
+    <state width="1898" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597799043069" />
+    <state width="1898" height="277" key="GridCell.Tab.0.right" timestamp="1597799043069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597659732290" />
-    <state width="1898" height="291" key="GridCell.Tab.0.bottom" timestamp="1597741935959">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1898" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597741935959" />
-    <state width="1898" height="291" key="GridCell.Tab.0.center" timestamp="1597741935958">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1898" height="291" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597741935958" />
-    <state width="1898" height="291" key="GridCell.Tab.0.left" timestamp="1597741935958">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1898" height="291" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597741935958" />
-    <state width="1898" height="291" key="GridCell.Tab.0.right" timestamp="1597741935958">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1898" height="291" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597741935958" />
-    <state x="0" y="85" width="1920" height="870" key="MergeDialog" timestamp="1597740791294">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="0" y="85" width="1920" height="870" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597740791294" />
-    <state x="529" y="385" width="396" height="270" key="MultipleFileMergeDialog" timestamp="1597737627878">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="529" y="385" width="396" height="270" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597737627878" />
-    <state x="566" y="220" key="RollbackChangesDialog" timestamp="1597734187431">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="566" y="220" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597734187431" />
-    <state x="188" y="123" key="SettingsEditor" timestamp="1597746134197">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="188" y="123" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597746134197" />
-    <state x="1032" y="252" key="Vcs.Push.Dialog.v2" timestamp="1597734339543">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1032" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597734339543" />
-    <state x="295" y="496" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597745730816">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="295" y="496" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597745730816" />
-    <state x="678" y="306" key="git4idea.merge.GitPullDialog" timestamp="1597745742329">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="678" y="306" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597745742329" />
-    <state x="730" y="392" width="611" height="285" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1597372126009">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="730" y="392" width="611" height="285" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597372126009" />
-    <state x="153" y="296" key="search.everywhere.popup" timestamp="1597384437578">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="153" y="296" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1597384437578" />
+    <state width="1898" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597799043069" />
   </component>
 </project>
