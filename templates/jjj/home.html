@@ -5,11 +5,10 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Home</title>
-	<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
-	<meta name="keywords" content="" />
-	<meta name="description" content="" />
+	<link href="static/default.css" rel="stylesheet", type="text/css" media="all">
 	<link href="static/fonts.css" rel="stylesheet", type="text/css" media="all">
-    <link href="static/default.css" rel="stylesheet", type="text/css" media="all">
+	<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -43,28 +42,40 @@
 			border-color: rgba(77,77,77,0.1);
 		}
 
+		#footer {
+			overflow: hidden;
+		padding: 5em 0em;
+		border-top: 1px solid rgba(255,255,255,0.08);
+
+
+
+		text-align: center;
+		font-size: 1em;
+		color: rgba(255,255,255,0.5);
+		background: #9C39AE;
+		}
+
 	</style>
 
-<script type="text/javascript">
-$( document ).ready( function() {
-			$( window ).scroll( function() {
-				if ( $( this ).scrollTop() > 200 ) {
-					$( '.top' ).fadeIn();
-				} else {
-					$( '.top' ).fadeOut();
-				}
+	<script type="text/javascript">
+	$( document ).ready( function() {
+				$( window ).scroll( function() {
+					if ( $( this ).scrollTop() > 200 ) {
+						$( '.top' ).fadeIn();
+					} else {
+						$( '.top' ).fadeOut();
+					}
+				} );
+
+				$( '.top' ).click( function() {
+					$( 'html, body' ).animate( { scrollTop : 0 }, 400 );
+					return false;
+				} );
+				$(".num").counterUp({delay:10,time:1000});
 			} );
-
-			$( '.top' ).click( function() {
-				$( 'html, body' ).animate( { scrollTop : 0 }, 400 );
-				return false;
-			} );
-			$(".num").counterUp({delay:10,time:1000});
-		} );
-</script>
-
-
+	</script>
 </head>
+
 <body>
 
 <div id="wrapper">
@@ -85,12 +96,12 @@ $( document ).ready( function() {
 				<h2 align="center" >사용자명을 입력하세요</h2>
 			</div>
 			<ul class="actions">
-					<form method="post" class="input" action="/post" >
-					   <input type = "text" id="input" name = "input" class="input"><br/>
-						<li>
-						<input type="submit" class="button" value="로그인"/>
-						</li>
-					</form>
+				<form method="post" class="input" action="/post" >
+				   <input type = "text" id="input" name = "input" class="input"><br/>
+					<li>
+					<input type="submit" class="button" value="로그인"/>
+					</li>
+				</form>
 			</ul>
 		</div>
 	</div>
@@ -104,34 +115,32 @@ $( document ).ready( function() {
     </div>
 
 	<!--COUNTING UP-->
-		<div class="counting-sec">
-			<div class="inner-width">
-				<div class="col">
-					 <i class="fa fa-newspaper-o"></i>
-					 <div class="num">136246</div>
-					  REVIEWS
-				</div>
+	<div class="counting-sec">
+		<div class="inner-width">
+			<div class="col">
+				 <i class="fa fa-newspaper-o"></i>
+				 <div class="num">136246</div>
+				  REVIEWS
+			</div>
 
-				<div class="col">
-					 <i class="fa fa-map-o"></i>
-					 <div class="num">1363469</div>
-					  PLACES
-				</div>
+			<div class="col">
+				 <i class="fa fa-map-o"></i>
+				 <div class="num">1363469</div>
+				  PLACES
+			</div>
 
-				<div class="col">
-					 <i class="far fa-smile-wink"></i>
-					 <div class="num">65646487</div>
-					 USERS
-				</div>
+			<div class="col">
+				 <i class="far fa-smile-wink"></i>
+				 <div class="num">65646487</div>
+				 USERS
 			</div>
 		</div>
+	</div>
 
+	<a href="#" class="top" >TOP</a>
+</div>
 
-  </div>
-
-<a href="#" class="top" >TOP</a>
-
-<div id="copyright" class="container">
+<div id="footer" class="">
 	<p>&copy; 잘잘잘조의 프로젝트 입니다. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
 </div>
 </body>
