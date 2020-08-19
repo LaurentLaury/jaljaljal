@@ -42,6 +42,7 @@ def get_rec():
     for data in cursor:
         reco.append(Recommend(*data))
     cursor.close()
+    conn.close()
     return reco
 
 # 비회원 추천 목록 댓글 더보는 쿼리
@@ -53,4 +54,5 @@ def find_comment(place):
     for data in cursor:
         com.append(Comment(*data))
     cursor.close()
+    conn.close()
     return com
