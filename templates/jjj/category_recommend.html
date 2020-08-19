@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html lang="ko" xmlns="http://www.w3.org/1999/xhtml">
 <head>
+
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>카테고리별로 추천받기</title>
 	<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
@@ -29,15 +30,13 @@
 </div>
 
 <div class="images" align="center">
-    <h1> 사진을 클릭하면 카테고리별 추천을 볼 수 있습니다.</h1>
+    <a href="/category_recommend_result/{{name}}/{{add}}/{{data[0]}}"><img src="../../static/images/all.png" width="300" height="300"></a>
+    <a href="/category_recommend_result/{{name}}/{{add}}/{{data[1]}}"><img src="../../static/images/res.png" width="300" height="300"></a>
+    <a href="/category_recommend_result/{{name}}/{{add}}/{{data[2]}}"><img src="../../static/images/hotel1.png" width="300" height="300"></a>
     <br>
-    <a href="/category_recommend_result/{{name}}/{{add}}/{{data[0]}}"><img src="../../static/images/all.jpg" width="300" height="300"></a>
-    <a href="/category_recommend_result/{{name}}/{{add}}/{{data[1]}}"><img src="../../static/images/restaurant.jpg" width="300" height="300"></a>
-    <a href="/category_recommend_result/{{name}}/{{add}}/{{data[2]}}"><img src="../../static/images/tour.jpg" width="300" height="300"></a>
-    <br>
-    <a href="/category_recommend_result/{{name}}/{{add}}/{{data[3]}}"><img src="../../static/images/sleep.png" width="300" height="300"></a>
-    <a href="/category_recommend_result/{{name}}/{{add}}/{{data[4]}}"><img src="../../static/images/cafe.jpg" width="300" height="300"></a>
-    <a href="/category_recommend_result/{{name}}/{{add}}/{{data[5]}}"><img src="../../static/images/beer.jpg" width="300" height="300"></a>
+    <a href="/category_recommend_result/{{name}}/{{add}}/{{data[3]}}"><img src="../../static/images/travel.png" width="300" height="300"></a>
+    <a href="/category_recommend_result/{{name}}/{{add}}/{{data[4]}}"><img src="../../static/images/cafe.png" width="300" height="300"></a>
+    <a href="/category_recommend_result/{{name}}/{{add}}/{{data[5]}}"><img src="../../static/images/beer.png" width="300" height="300"></a>
 
 </div>
 
