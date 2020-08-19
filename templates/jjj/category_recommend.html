@@ -1,19 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
+
+<html lang="ko" xmlns="http://www.w3.org/1999/xhtml">
+<head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Home</title>
-    <meta name="keywords" content="" />
-    <meta name="description" content="" />
-    <link href="../static/fonts.css" rel="stylesheet", type="text/css" media="all">
-    <link href="../static/default.css" rel="stylesheet", type="text/css" media="all">
-
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link href="../../static/fonts.css" rel="stylesheet", type="text/css" media="all">
+    <link href="../../static/default.css" rel="stylesheet", type="text/css" media="all">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+
 </head>
 <body>
 <div id="wrapper">
@@ -25,15 +27,14 @@
             <ul>
                 <li class="current_page_item"><a href="/" accesskey="1" title="">Home</a></li>
                 <li><a href="#extra" accesskey="2" title="">지역 분포도</a></li>
-
-
             </ul>
         </div>
     </div>
 </div>
-<h1> 사진을 클릭하면 카테고리별 추천을 볼 수 있습니다.</h1>
 
 <div class="images" align="center">
+    <h1> 사진을 클릭하면 카테고리별 추천을 볼 수 있습니다.</h1>
+    <br>
     <a href="/category_recommend_result/{{name}}/{{add}}/{{data[0]}}"><img src="../../static/images/all.jpg" width="300" height="300"></a>
     <a href="/category_recommend_result/{{name}}/{{add}}/{{data[1]}}"><img src="../../static/images/restaurant.jpg" width="300" height="300"></a>
     <a href="/category_recommend_result/{{name}}/{{add}}/{{data[2]}}"><img src="../../static/images/tour.jpg" width="300" height="300"></a>
