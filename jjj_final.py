@@ -128,8 +128,7 @@ def ctg_rec(name, add):
 def ctg_seoul(name, add, ctg):
     value = name
     value2 = add
-    value3 = ctg
-    print(value3)
+    value3 = int(ctg)
     os.putenv('NLS_LANG', 'KOREAN_KOREA.KO16MSWIN949')
     connection = cx_Oracle.connect('hr/hr@192.168.2.27:1521/xe')
     cur = connection.cursor()
@@ -141,7 +140,6 @@ def ctg_seoul(name, add, ctg):
     connection.close()
 
     if name not in member:
-        print("insert")
         mm.main(value, value2, value3)
 
     result = mm.get_recommend_info(value, value2, value3)
