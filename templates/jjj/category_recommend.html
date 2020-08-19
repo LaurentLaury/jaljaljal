@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ko" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>카테고리별로 추천받기</title>
+	<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link href="../../static/fonts.css" rel="stylesheet" type="text/css" media="all">
+    <link href="../../static/default.css" rel="stylesheet" type="text/css" media="all">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+<div id="wrapper">
+    <div id="header" class="container">
+        <div id="logo">
+            <h1><a href="/">어디가지?</a></h1>
+        </div>
+        <div id="menu">
+            <ul>
+                <li class="current_page_item"><a href="/" accesskey="1" title="">Home</a></li>
+                <li><a href="#extra" accesskey="2" title="">지역 분포도</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="images" align="center">
+    <a href="/category_recommend_result/{{name}}/{{add}}/{{data[0]}}"><img src="../../static/images/all.png" width="300" height="300"></a>
+    <a href="/category_recommend_result/{{name}}/{{add}}/{{data[1]}}"><img src="../../static/images/res.png" width="300" height="300"></a>
+    <a href="/category_recommend_result/{{name}}/{{add}}/{{data[2]}}"><img src="../../static/images/hotel1.png" width="300" height="300"></a>
+    <br>
+    <a href="/category_recommend_result/{{name}}/{{add}}/{{data[3]}}"><img src="../../static/images/travel.png" width="300" height="300"></a>
+    <a href="/category_recommend_result/{{name}}/{{add}}/{{data[4]}}"><img src="../../static/images/cafe.png" width="300" height="300"></a>
+    <a href="/category_recommend_result/{{name}}/{{add}}/{{data[5]}}"><img src="../../static/images/beer.png" width="300" height="300"></a>
+
+</div>
+
+<footer>
+    <div id="copyright" class="container">
+        <p>&copy; 잘잘잘. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
+    </div>
+</footer>
+
+</body>
+</html>
