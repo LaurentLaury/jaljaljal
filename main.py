@@ -34,6 +34,7 @@ def recommend(user_i,df) :
 
 def main(user_i, add=None, ctg=5) : 
     if add == None :
+        print('기본추천')
         df = get.get_df()
         result = recommend(user_i, df)
 
@@ -50,6 +51,7 @@ def main(user_i, add=None, ctg=5) :
         connection.close()
 
     else :
+        print('카테고리 추천', ctg)
         df = get.get_df(add, ctg)
         result = recommend_svd.do(user_i, df)
         result["category"]=float(ctg)

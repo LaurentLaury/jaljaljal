@@ -68,7 +68,7 @@ def hybrid(name):
 def location_commend(name):
     value = name
     location = ['서울', '경기', '인천', '강원', '경북', '경남', '대구', '부산', '울산', '전남', '전북', '광주', '제주', '충남', '충북', '대전']
-    return render_template("jjj/location_recommend.html", name=value,data=location)
+    return render_template("jjj/location_recommend.html", name=value, data=location)
 
 # @app.route("/location_recommend", methods=["GET"])
 # def rec_addr_ctg():
@@ -117,6 +117,36 @@ def location_commend(name):
 #
 #     return render_template("jjj/category_commend2.html", data=result)
 
+@app.route("/category_recommend/<name>/<add>", methods=["GET"])
+def ctg_rec(name, add):
+    value = name
+    value2 = add
+    result = [5, 0, 1, 2, 3, 4]
+    return render_template("jjj/category_recommend.html", name=value, add=value2, data=result)
+
+@app.route("/category_recommend_result/<name>/<add>/<ctg>", methods=["GET"])
+def ctg_seoul(name, add, ctg):
+    value = name
+    value2 = add
+    value3 = ctg
+    print(value3)
+    os.putenv('NLS_LANG', 'KOREAN_KOREA.KO16MSWIN949')
+    connection = cx_Oracle.connect('hr/hr@192.168.2.27:1521/xe')
+    cur = connection.cursor()
+    cur.execute("select distinct name from jjj_rec_add where category=:category and address1=:address1", {"category":value3, "address1":value2})
+    member = []
+    for result in cur:
+        member.append(result[0])
+    cur.close()
+    connection.close()
+
+    if name not in member:
+        print("insert")
+        mm.main(value, value2, value3)
+
+    result = mm.get_recommend_info(value, value2, value3)
+
+    return render_template("jjj/category_recommend_result.html", name=value, add=value2, ctg=value3, data=result)
 
 
 if __name__=='__main__':
