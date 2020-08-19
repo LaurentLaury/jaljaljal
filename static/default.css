@@ -1,3 +1,5 @@
+
+
 	html, body
 	{
 		height: 100%;
@@ -7,7 +9,7 @@
 	{
 		margin: 0px;
 		padding: 0px;
-		background: #ffffff;
+		background: #9C39AE;
 		font-family: 'Varela', sans-serif;
 		font-size: 11pt;
 		font-weight: 300;
@@ -478,8 +480,12 @@
 /* Footer                                                                        */
 /*********************************************************************************/
 
-	#footer
+	#footer p
 	{
+	    border-top: 1px solid rgba(255,255,255,0.08);
+	    background: #9C39AE;
+	    color: rgba(123,123,123,0.5);
+	    padding: 5em 0em;
 	}
 
 /*********************************************************************************/
@@ -491,6 +497,8 @@
 		overflow: hidden;
 		padding: 5em 0em;
 		border-top: 1px solid rgba(255,255,255,0.08);
+		color: rgba(123,123,123,0.5);
+		background: #9C39AE;
 	}
 	
 	#copyright p
@@ -498,6 +506,7 @@
 		text-align: center;
 		font-size: 1em;
 		color: rgba(255,255,255,0.5);
+		background: #9C39AE;
 	}
 	
 	#copyright a
@@ -591,6 +600,7 @@
 body{
   margin: 0;
   padding: 0;
+  background: #9C39AE;
   font-family: "montserrat",sans-serif;
 }
 .middle{

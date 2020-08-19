@@ -7,6 +7,7 @@ import main as mm
 import category_commend as cc
 app = Flask(__name__)
 
+
 # 로그인 기능
 @app.route("/")
 def home():
@@ -23,6 +24,7 @@ def post():
     else:
         return render_template("jjj/login_fail.html", name=value, data = reco)
 
+
 @app.route("/unmember/comment/<place>", methods=['GET'])
 def find_comment(place):
     com = jm.find_comment(place)
@@ -36,6 +38,7 @@ def chart(name):
     add_length = len(address_count)
     ctg_length = len(ctg_count)
     return render_template("jjj/graph1.html", add_data=address_count, add_len = add_length, ctg_data = ctg_count, ctg_len=ctg_length, name=name)
+
 
 @app.route("/hybrid/<name>", methods=['GET'])
 def hybrid(name):
@@ -62,13 +65,12 @@ def hybrid(name):
 #     return render_template("jjj/nomal_comment.html" , name=value, data=jjj_reco)
 
 
-
-
 @app.route("/location_recommend/<name>", methods=["GET"])
 def location_commend(name):
     value = name
     location = ['서울', '경기', '인천', '강원', '경북', '경남', '대구', '부산', '울산', '전남', '전북', '광주', '제주', '충남', '충북', '대전']
     return render_template("jjj/location_recommend.html", name=value, data=location)
+
 
 # @app.route("/location_recommend", methods=["GET"])
 # def rec_addr_ctg():
@@ -117,6 +119,7 @@ def location_commend(name):
 #
 #     return render_template("jjj/category_commend2.html", data=result)
 
+
 @app.route("/category_recommend/<name>/<add>", methods=["GET"])
 def ctg_rec(name, add):
     value = name
@@ -124,8 +127,9 @@ def ctg_rec(name, add):
     result = [5, 0, 1, 2, 3, 4]
     return render_template("jjj/category_recommend.html", name=value, add=value2, data=result)
 
+
 @app.route("/category_recommend_result/<name>/<add>/<ctg>", methods=["GET"])
-def ctg_seoul(name, add, ctg):
+def ctg_rec_result(name, add, ctg):
     value = name
     value2 = add
     value3 = int(ctg)
