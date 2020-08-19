@@ -50,7 +50,19 @@
     </div>
 
     <div id="extra" class="container">
-        <h2>카테고리별 추천 결과입니다.</h2>
+        {% if ctg == 0 %}
+            <h2>음식점 추천 결과입니다.</h2>
+        {% elif ctg == 1 %}
+            <h2>숙박 추천 결과입니다.</h2>
+        {% elif ctg == 2 %}
+            <h2>관광지 추천 결과입니다.</h2>
+        {% elif ctg == 3 %}
+            <h2>카페 추천 결과입니다.</h2>
+        {% elif ctg == 4 %}
+            <h2>술집 추천 결과입니다.</h2>
+        {% else %}
+            <h2>전체 추천 결과입니다.</h2>
+        {% endif %}
         <table class="table table-bordered">
             <thead>
             <tr>
@@ -65,8 +77,8 @@
             <tr>
                 <td>{{row[1]}}</td>
                 <td>{{row[2]}}</td>
-                <td>{{row[4]}}</td>
                 <td>{{row[3]}}</td>
+                <td>{{row[4]}}</td>
             </tr>
             </tbody>
             {% endfor %}
