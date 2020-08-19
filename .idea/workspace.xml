@@ -1,15 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e12e4643-a0c7-4028-b5ad-6f08747e5461" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jal_cx.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="e12e4643-a0c7-4028-b5ad-6f08747e5461" name="Default Changelist" comment="연동확인">
+      <change afterPath="$PROJECT_DIR$/static/images/강원1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/경기1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/경남1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/경북1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/광주1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/대구1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/대전.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/부산1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/서울1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/울산1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/인천1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/전남1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/전북1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/제주1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/충남.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/충북1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/jjj/category_recommend.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/jjj/hybrid.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/jjj/hybrid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/jjj/unmember_comment.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/jjj/unmember_comment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/jjj/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/jjj/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +49,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test_0819" />
   </component>
   <component name="RunManager">
     <configuration name="jjj_final" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -72,26 +92,47 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="739" y="260" key="FileChooserDialogImpl" timestamp="1597798125766">
+    <state x="739" y="260" key="FileChooserDialogImpl" timestamp="1597800082036">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597798125766" />
-    <state width="1898" height="277" key="GridCell.Tab.0.bottom" timestamp="1597799043069">
+    <state x="739" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597800082036" />
+    <state width="1898" height="291" key="GridCell.Tab.0.bottom" timestamp="1597800029677">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597799043069" />
-    <state width="1898" height="277" key="GridCell.Tab.0.center" timestamp="1597799043069">
+    <state width="1898" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597800029677" />
+    <state width="1898" height="291" key="GridCell.Tab.0.center" timestamp="1597800029677">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597799043069" />
-    <state width="1898" height="277" key="GridCell.Tab.0.left" timestamp="1597799043069">
+    <state width="1898" height="291" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597800029677" />
+    <state width="1898" height="291" key="GridCell.Tab.0.left" timestamp="1597800029677">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597799043069" />
-    <state width="1898" height="277" key="GridCell.Tab.0.right" timestamp="1597799043069">
+    <state width="1898" height="291" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597800029677" />
+    <state width="1898" height="291" key="GridCell.Tab.0.right" timestamp="1597800029677">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597799043069" />
+    <state width="1898" height="291" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597800029677" />
+    <state x="765" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597799906983">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597799906983" />
   </component>
 </project>
