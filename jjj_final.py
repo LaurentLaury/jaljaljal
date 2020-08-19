@@ -67,31 +67,30 @@ def hybrid(name):
 @app.route("/location_recommend/<name>", methods=["GET"])
 def location_commend(name):
     value = name
-    name = cc.get_name(value)
-    address1_list = cc.get_address1()
-    return render_template("jjj/location_recommend.html", name=value, data={"name": name, "address1_list": address1_list})
+    location = ['서울', '경기', '인천', '강원', '경북', '경남', '대구', '부산', '울산', '전남', '전북', '광주', '제주', '충남', '충북', '대전']
+    return render_template("jjj/location_recommend.html", name=value,data=location)
 
-@app.route("/location_recommend", methods=["GET"])
-def rec_addr_ctg():
-    name = request.form["name"]
-    add = request.form["address1"]
-
-    os.putenv('NLS_LANG', 'KOREAN_KOREA.KO16MSWIN949')
-    connection = cx_Oracle.connect('hr/hr@192.168.2.27:1521/xe')
-    cur = connection.cursor()
-    cur.execute("select distinct name from jjj_rec_add where address1=:address1", {"address1":add})
-    member = []
-    for result in cur:
-        member.append(result[0])
-    cur.close()
-    connection.close()
-
-    if name not in member:
-        mm.main(name, add)
-
-    result = mm.get_recommend_info(name, add)
-
-    return render_template("jjj/category_commend2.html", data=result)
+# @app.route("/location_recommend", methods=["GET"])
+# def rec_addr_ctg():
+#     name = request.form["name"]
+#     add = request.form["address1"]
+#
+#     os.putenv('NLS_LANG', 'KOREAN_KOREA.KO16MSWIN949')
+#     connection = cx_Oracle.connect('hr/hr@192.168.2.27:1521/xe')
+#     cur = connection.cursor()
+#     cur.execute("select distinct name from jjj_rec_add where address1=:address1", {"address1":add})
+#     member = []
+#     for result in cur:
+#         member.append(result[0])
+#     cur.close()
+#     connection.close()
+#
+#     if name not in member:
+#         mm.main(name, add)
+#
+#     result = mm.get_recommend_info(name, add)
+#
+#     return render_template("jjj/category_commend2.html", data=result)
 
 
 # @app.route("/category_commend", methods=["POST"])
