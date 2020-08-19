@@ -6,8 +6,7 @@
     <link href="../../static/default.css" rel="stylesheet", type="text/css" media="all">
     <link href="../../static/fonts.css" rel="stylesheet", type="text/css" media="all">
     <title>비회원 추천</title>
-    <meta name="keywords" content="" />
-	<meta name="description" content="" />
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -28,12 +27,60 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap" rel="stylesheet">
 
     <style>
+
+    a.top{
+			position: fixed;
+			display: none;
+			bottom: 20px;
+			right: 20px;
+			z-index: 99;
+			border: 1px;
+			border-style: solid;
+			border-color: rgba(77,77,77,0.1);
+			outline: none;
+			background-color: #212121;
+			color: #ffffff;
+			font-size: 1em;
+			font-weight: bold;
+			cursor: pointer;
+			padding: 25px 29px;
+			border-radius: 1px;
+		}
+
+		a.top:hover{
+			background-color: #47b9e4;
+			border: 1px;
+			border-style: solid;
+			border-color: rgba(77,77,77,0.1);
+		}
       body {
         font-family: 'Noto Sans KR', sans-serif;
         font-size: 15px;
       }
+
+
+      #footer {
+			overflow: hidden;
+			padding: 5em 0em;
+			border-top: 1px solid rgba(255,255,255,0.08);
+			text-align: center;
+			font-size: 1em;
+			color: rgba(255,255,255,0.5);
+			background: #9C39AE;
+		}
     </style>
 
+    <script type="text/javascript">
+	$( document ).ready( function() {
+				$( window ).scroll( function() {
+					if ( $( this ).scrollTop() > 200 ) {
+						$( '.top' ).fadeIn();
+					} else {
+						$( '.top' ).fadeOut();
+					}
+				} );
+			} );
+	</script>
 </head>
 <body>
 
@@ -83,8 +130,8 @@
 </div>
 
 </div>
-
-<div id="copyright" class="container">
+<a href="#" class="top" >TOP</a>
+<div id="footer" class="">
 	<p>&copy; 잘잘잘조의 프로젝트 입니다. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
 </div>
 </body>
