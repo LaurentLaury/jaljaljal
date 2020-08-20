@@ -232,7 +232,11 @@
 	{
 		margin-bottom: 3em;
 	}
-	
+	.title h1
+	{
+		text-transform: uppercase;
+		font-size: 5.7em;
+	}
 	.title h2
 	{
 		text-transform: uppercase;
@@ -428,6 +432,11 @@
 	}
 
 	#banner .title h2
+	{
+		color: #FFF;
+	}
+
+	#banner .title h1
 	{
 		color: #FFF;
 	}
