@@ -155,10 +155,23 @@ def ctg_rec_result(name, add, ctg):
     return render_template("jjj/category_recommend_result.html", name=value, add=value2, ctg=value3, data=result)
 
 
-@app.route("/text/<place>",methods=["GET"])
-def text(place) :
+@app.route("/text/<place>/<address>",methods=["GET"])
+def text(place, address) :
     text = wc.get_text(place)
-    return render_template("jjj/word_chart.html", data = text)
+    os.putenv('NLS_LANG', 'KOREAN_KOREA.KO16MSWIN949')
+    connection = cx_Oracle.connect('hr/hr@192.168.2.27:1521/xe')
+    cur = connection.cursor()
+    cur.execute("select count(*), round(avg(star),2) from recommend where place=:place and address=:address", {"place":place, "address":address})
+    detail = []
+    for data in cur :
+        detail.append(data)
+    cur.execute("select count(review) from recommend where place=:place and address=:address and review <> 'nan'", {"place":place, "address":address})
+    detail2 = []
+    for data in cur :
+        detail2.append(data)
+    cur.close()
+    connection.close()
+    return render_template("jjj/word_chart.html", data = text, place=place, detail=detail, detail2 = detail2)
 
 
 if __name__=='__main__':
