@@ -165,13 +165,9 @@ def text(place, address) :
     detail = []
     for data in cur :
         detail.append(data)
-    cur.execute("select count(review) from recommend where place=:place and address=:address and review <> 'nan'", {"place":place, "address":address})
-    detail2 = []
-    for data in cur :
-        detail2.append(data)
     cur.close()
     connection.close()
-    return render_template("jjj/word_chart.html", data = text, place=place, detail=detail, detail2 = detail2)
+    return render_template("jjj/word_chart.html", data = text, place=place, detail=detail)
 
 
 if __name__=='__main__':

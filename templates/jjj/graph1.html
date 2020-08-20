@@ -18,27 +18,70 @@
 
     <!-- chart styles -->
 <style>
-#barchart {
-  width: 50%;
-  height: 300px;
-  float: left;
-}
-
-#piechart {
-  width: 50%;
-  height: 300px;
-  float: right;
-}
-
 #chartbox {
 
 align-items: center;
 padding-top:15px;
 padding-bottom:30px;
-padding-left:100px;
-padding-right:100px;
+
+margin-left:-140px;
+
+margin-right:0;
 background-color: #FFFFFF;
 }
+
+#barchart {
+  width: 100%;
+  height: 300px;
+
+}
+
+#piechart {
+  width: 100%;
+  height: 300px;
+
+}
+
+a.top{
+			position: fixed;
+			display: none;
+			bottom: 20px;
+			right: 20px;
+			z-index: 99;
+			border: 1px;
+			border-style: solid;
+			border-color: rgba(77,77,77,0.1);
+			outline: none;
+			background-color: #212121;
+			color: #ffffff;
+			font-size: 1em;
+			font-weight: bold;
+			cursor: pointer;
+			padding: 25px 29px;
+			border-radius: 1px;
+		}
+
+		a.top:hover{
+			background-color: #47b9e4;
+			border: 1px;
+			border-style: solid;
+			border-color: rgba(77,77,77,0.1);
+		}
+      body {
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 15px;
+      }
+
+
+      #footer {
+			overflow: hidden;
+			padding: 5em 0em;
+			border-top: 1px solid rgba(255,255,255,0.08);
+			text-align: center;
+			font-size: 1em;
+			color: rgba(255,255,255,0.5);
+			background: #9C39AE;
+		}
 </style>
 
 
@@ -87,7 +130,7 @@ categoryAxis.fontSize = 11;
 
 var valueAxis = chart.yAxes.push(new am4charts.ValueAxis());
 valueAxis.min = 0;
-valueAxis.max = 50;
+valueAxis.max = 30;
 valueAxis.strictMinMax = true;
 valueAxis.renderer.minGridDistance = 30;
 // axis break
@@ -205,13 +248,13 @@ chart.hiddenState.properties.radius = am4core.percent(0);
 <h1>{{name}}님의 추천 분석 결과입니다!</h1> <br>
 
 
-<h3> 지역별 추천 결과 </h3>
-<div id="barchart" float="right">  </div>
+<h3 style="padding-bottom:15px"> 지역별 추천 결과 </h3>
+<div id="barchart" >  </div>
 
+<p style="padding-top:400px"></p>
 
-
-<h3> 카테고리별 추천 결과 </h3>
-<div id="piechart" float="left"> </div>
+<h3 > 카테고리별 추천 결과 </h3>
+<div id="piechart"> </div>
 
 
 </div>
