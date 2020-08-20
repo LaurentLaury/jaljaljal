@@ -42,11 +42,11 @@ def get_rec():
     for data in cursor:
         reco.append(Recommend(*data))
     cursor.close()
-    conn.close()
     return reco
 
 # 비회원 추천 목록 댓글 더보는 쿼리
 def find_comment(place):
+
     sql = "select name, star, review from recommend where place =: place and review not in ('nan') order by star desc"
     cursor = conn.cursor()
     cursor.execute(sql, {"place":place})
@@ -54,5 +54,4 @@ def find_comment(place):
     for data in cursor:
         com.append(Comment(*data))
     cursor.close()
-    conn.close()
     return com
