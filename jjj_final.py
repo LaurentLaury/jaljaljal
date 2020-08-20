@@ -1,9 +1,12 @@
 import os
+import threading
+
 import cx_Oracle
 from flask import Flask, render_template, request
 import jjj_login as jl
 import jjj_manage as jm
 import main as mm
+import word_cloud as wc
 import category_commend as cc
 app = Flask(__name__)
 
@@ -149,6 +152,12 @@ def ctg_rec_result(name, add, ctg):
     result = mm.get_recommend_info(value, value2, value3)
 
     return render_template("jjj/category_recommend_result.html", name=value, add=value2, ctg=value3, data=result)
+
+
+@app.route("/text/<place>",methods=["GET"])
+def text(place) :
+    text = wc.get_text(place)
+    return render_template("jjj/word_chart.html", data = text)
 
 
 if __name__=='__main__':
