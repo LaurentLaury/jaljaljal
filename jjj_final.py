@@ -57,6 +57,7 @@ def hybrid(name):
         mm.main(name)
     reco = mm.get_recommend_info(name)
     cur.close()
+
     return render_template("jjj/hybrid.html", data=reco, name=name)
 
 
