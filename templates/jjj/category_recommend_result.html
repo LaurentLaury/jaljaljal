@@ -64,24 +64,32 @@
         <table class="table table-bordered">
             <thead>
             <tr>
+                <th scope="col">번호</th>
                 <th scope="col">상호</th>
                 <th scope="col">카테고리</th>
                 <th scope="col">주소</th>
                 <th scope="col">별점</th>
+                <th scope="col">분석 보기</th>
             </tr>
             </thead>
             {% for row in data %}
             <tbody>
             <tr>
+                <td>{{data.index(row)+1}}</td>
                 <td>{{row[1]}}</td>
                 <td>{{row[2]}}</td>
                 <td>{{row[3]}}</td>
                 <td>{{row[4]}}</td>
+                <td><a href="/text/{{row[1]}}" >더보기</a></td>
             </tr>
             </tbody>
             {% endfor %}
         </table>
     </div>
+</div>
+<a href="#" class="top" >TOP</a>
+<div id="copyright" class="">
+	<p>&copy; 잘잘잘조의 프로젝트 입니다. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
 </div>
 </body>
 </html>
